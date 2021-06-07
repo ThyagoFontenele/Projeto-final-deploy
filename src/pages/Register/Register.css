@@ -1,0 +1,63 @@
+body{
+    background: #00ffff;
+}
+.register{
+    position: absolute;
+    width: 30%;
+    min-width: 20%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    background: #ffffff;
+    color: black;
+    transform: translate(-50%, -50%);
+    border-radius: 0.4em;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+}
+.back-point-register{
+    display: flex;
+    max-width: 4%;
+    min-width: 3%;
+    max-height: 4%;
+    min-height: 3%;
+    text-align: left;
+    transform: translate(-10%, 40%);
+}
+#input{
+    height: 2.7%;
+    width: 70%;
+    margin-top: 0;
+}
+#labels{
+    display: flex;
+    font-size: 90%;
+    margin-left: 14%;
+    margin-bottom: 0;
+}
+#user-type{
+    display: flex;
+    width: 41%;
+    height: 3.5%;
+    text-align: left;
+    margin-left: 14%;
+}
+.date{
+    width: 40%;
+    height: 3.2%;
+    text-align: left;
+    margin-left: -1%;
+    margin-right: 3%;
+}
+
+#telefone{
+    font-size: 90%;
+    margin-left: 30%;
+    margin-bottom: 0;
+    margin-left: 20%;
+}
+.phone-number{
+    width: 25%;
+    height: 2.9%;
+}

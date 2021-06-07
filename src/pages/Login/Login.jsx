@@ -10,10 +10,10 @@ function Login() {
                 <div className="login">
                     <Link to="/"><img src={BackPoint} alt="seta-voltar"  className="back-point"/></Link>
                     <h1 className="realize-text">Realize seu login</h1>
-                    <p className="usuario-text">E-mail ou CPF</p>
+                    <label className="usuario-text">E-mail ou CPF</label>
                     <input type="text" placeholder="Usuário" className="input-usuario" />
                     <br />
-                    <p className="senha-text">Senha</p>
+                    <label className="senha-text">Senha</label>
                     <input type="password"  placeholder="Senha" className="input-senha"/>
                     <br />
                     <br />

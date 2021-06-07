@@ -40,11 +40,9 @@ input{
 }
 .usuario-text{
     display: flex;
-    text-align: center;
     margin-left: 14%;
     font-size: 90%;
     margin-top: 30%;
-    margin-bottom: 0;
    
 }
 .input-usuario{
@@ -54,11 +52,8 @@ input{
 }
 .senha-text{
     display: flex;
-    text-align: center;
     margin-left: 14%;
     font-size: 90%;
-    margin-top: 2%;
-    margin-bottom: 0%;
 }
 .input-senha{
     height: 7%;
