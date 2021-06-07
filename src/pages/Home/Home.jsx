@@ -4,11 +4,12 @@ import Card1 from '../../components/Cards/Card1/Card1'
 import Card2 from '../../components/Cards/Card2/Card2'
 import './Home.css'
 import { Link } from 'react-router-dom'
+import Footer from '../../components/Footer/Footer'
 
 
 function Home() {
     return (
-        <div>
+        <div className="home">
             <Header/>
             <main className="main-home">
                 <div>
@@ -22,8 +23,6 @@ function Home() {
                 </div>
 
                 <hr className="hr-home"/>
-
-
             </main>
         </div>
     )

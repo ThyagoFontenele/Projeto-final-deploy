@@ -10,7 +10,7 @@ function Header() {
             <header>
                 <nav>
                     <div>
-                        <img src={Logo} alt="Logo de Comes e Bebes"/>
+                        <a href="/"><img src={Logo} alt="Logo de Comes e Bebes"/></a>
                     </div>
 
                     <div>

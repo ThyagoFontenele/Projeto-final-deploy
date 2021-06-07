@@ -1,11 +1,11 @@
 body{
-    background: #ffffff;
+    background: #f5c661
     
 }
 .fundo-escuro{
     position: absolute;
-    background-color: #00ffff;
-    width: 60%;
+    background-color: #29abe2;
+    width: 70%;
     height: 100%;
     left: 0%;
     top: 0%;
@@ -27,17 +27,16 @@ body{
     height: 50%;
     top: 40%;
     left: 90%;
-    background: #29aae2f8;
+    background: #ffffff;
     color: black;
     transform: translate(-40%, -20%);
-    border-radius: 0.2rem;
+    border-radius: 0.4em;
     padding-left: 4rem;
     padding-right: 4rem;
     text-align: center;
 }
 input{
     outline: none;
-    border: none;
 }
 .usuario-text{
     display: flex;
@@ -46,10 +45,12 @@ input{
     font-size: 90%;
     margin-top: 30%;
     margin-bottom: 0;
+   
 }
 .input-usuario{
     height: 7%;
     width: 70%;
+    
 }
 .senha-text{
     display: flex;
@@ -62,13 +63,14 @@ input{
 .input-senha{
     height: 7%;
     width: 70%;
+    
 }
 .realize-text{
     max-width: 100%;
     width: 100%;
     min-width: 20%;
     font-size: 180%;
-    margin-bottom: 20%;
+    margin-bottom: 0%;
     margin-top: 0%;
     
 }
@@ -76,6 +78,13 @@ input{
     margin-top: 10%;
     min-width: 30%;
     min-height: 9%;
+
+}
+.botao-entrar:active{
+    margin-top: 10%;
+    min-width: 30%;
+    min-height: 9%;
+    background: #00ffff;
 
 }
 .esqueci-senha{
