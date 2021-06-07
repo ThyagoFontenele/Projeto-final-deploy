@@ -9,7 +9,7 @@ function Login() {
             <div className="fundo-escuro"> 
                 <div className="login">
                     <Link to="/"><img src={BackPoint} alt="seta-voltar"  className="back-point"/></Link>
-                    <h1>Realize seu login</h1>
+                    <h1 className="realize-text">Realize seu login</h1>
                     <p className="usuario-text">E-mail ou CPF</p>
                     <input type="text" placeholder="Usuário" className="input-usuario" />
                     <br />
@@ -17,7 +17,7 @@ function Login() {
                     <input type="password"  placeholder="Senha" className="input-senha"/>
                     <br />
                     <br />
-                    <button className="entrar-button">Entrar</button>
+                    <button className="botao-entrar">Entrar</button>
                     <br />
                     <Link><p className="esqueci-senha">Esqueci minha senha</p></Link>
                 </div>

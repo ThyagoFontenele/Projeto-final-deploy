@@ -1,4 +1,4 @@
-main {
+.main-home {
     max-width: 900px;
     margin: 0 auto;
     display: flex;
@@ -6,6 +6,27 @@ main {
     align-items: center;
 }
 
-h1 {
+.h1-home {
     font-size: 48px;
+    text-align: center;
+}
+
+.p1-home {
+    font-size: 24px;
+    text-align: center;
+}
+
+.display-cards-home {
+    display: flex;
+}
+
+.display-cards-home div {
+    margin: 15px;
+}
+
+.hr-home {
+    background-color: #c3c3c3;
+    width: 100%;
+    height: 2px;
+    border: none;
 }

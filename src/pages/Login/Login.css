@@ -10,62 +10,79 @@ body{
     left: 0%;
     top: 0%;
 }
-.login{
-    position: absolute;
-    width: 25%;
-    height: 45%;
-    top: 40%;
-    left: 90%;
-    background: #29aae2ec;
-    color: black;
-    transform: translate(-40%, -20%);
-    border-radius: 0.2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
 .back-point{
+    display: flex;
     max-width: 8%;
     min-width: 4%;
     max-height: 8%;
     min-height: 4%;
-    transform: translate(-80%, 20%);
+    text-align: left;
+    transform: translate(-200%, 20%);
+}
+.login{
+    position: absolute;
+    max-width: 28%;
+    width: 27%;
+    min-width: 28%;
+    height: 50%;
+    top: 40%;
+    left: 90%;
+    background: #29aae2f8;
+    color: black;
+    transform: translate(-40%, -20%);
+    border-radius: 0.2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: center;
 }
 input{
     outline: none;
     border: none;
 }
 .usuario-text{
-    transform: translate(25%, 250%);
-    font-size: 80%;
-    width: 60%;
+    display: flex;
+    text-align: center;
+    margin-left: 14%;
+    font-size: 90%;
+    margin-top: 30%;
+    margin-bottom: 0;
 }
 .input-usuario{
     height: 7%;
     width: 70%;
-    transform: translate(21%, 110%);
 }
 .senha-text{
-    transform: translate(15%, 120%);
+    display: flex;
+    text-align: center;
+    margin-left: 14%;
     font-size: 90%;
-    width: 10%;
+    margin-top: 2%;
+    margin-bottom: 0%;
 }
 .input-senha{
     height: 7%;
     width: 70%;
-    transform: translate(21%, 20%);
 }
-.esqueci-senha{
-    color: black;
-    transform: translate(25%, 300%);
-}
-.entrar-button{
-    transform: translate(90%, 120%);
-}
-h1{
+.realize-text{
     max-width: 100%;
     width: 100%;
     min-width: 20%;
-    font-size: 26px;
-    transform: translate(20%, -50%);
+    font-size: 180%;
+    margin-bottom: 20%;
+    margin-top: 0%;
     
+}
+.botao-entrar{
+    margin-top: 10%;
+    min-width: 30%;
+    min-height: 9%;
+
+}
+.esqueci-senha{
+    
+    color: black;
+    font-size: 0.9rem;
+    min-width: 100%;
+    margin-top: 10%;
+    margin-bottom: 0;
 }

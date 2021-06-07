@@ -1,9 +1,13 @@
 button{
-    width: 100px;
+    
+    max-width: 100px;
+    min-width: 50px;
     font-size: 1.2rem;
     border-radius: 0.2rem;
     border: 1px solid #29abe2;
     cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
     color: #29abe2;
 }
 button:hover{
