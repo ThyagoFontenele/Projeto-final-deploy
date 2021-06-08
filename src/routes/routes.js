@@ -3,6 +3,7 @@ import Home from '../pages/Home/Home'
 import NotFound from '../pages/NotFound/NotFound'
 import Login from '../pages/Login/Login'
 import Register from '../pages/Register/Register'
+import Forgot from '../pages/ForgotPassword/Forgot'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 function routes() {
     return (
@@ -21,6 +22,10 @@ function routes() {
                     <Login/>
                 </Route>
                 
+                <Route exact path="/forgot-password">
+                    <Forgot/>
+                </Route>
+
                 <Route exact path="/404">
                         <NotFound/>
                 </Route>

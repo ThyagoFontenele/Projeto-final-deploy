@@ -1,17 +1,13 @@
 button{
-    
     max-width: 100px;
     min-width: 50px;
     font-size: 1.2rem;
-    border-radius: 0.2rem;
-    border: 1px solid #29abe2;
+    border: none;
     cursor: pointer;
     padding-left: 10px;
     padding-right: 10px;
-    color: #29abe2;
+    background-color: #f5c661 ;
 }
 button:hover{
-    border: 1px solid #fff;
-    background-color: #29abe2;
-    color: #fff;
+    background-color: #dba124;
 }

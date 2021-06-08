@@ -1,0 +1,63 @@
+#body-forgot{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+#barra{
+    width: 70%;
+    height: 0px;
+    margin-top: 2%;
+    border: 1px solid #FF7E61;
+    margin-bottom: 8%;
+}
+#body-esqueci{
+    position: absolute;
+    width: 42.5%;
+    height: 40%;
+    left: 27%;
+    top: 35%;
+    background: #f5c661;
+    padding: 1%;
+    text-align: center;
+    
+}
+#esqueci-minha-senha-text{
+    font-family: 'Roboto', sans-serif;
+    margin-left: -30%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 220%;
+    line-height: 35px;
+}
+#input-email{
+    width: 70%;
+    height: 9%;
+    background: #FAFAFA;
+    border: 1px solid #FF7E61;
+    box-sizing: border-box;
+}
+#label-mail{
+   font-size: 120%;
+   margin-left: -46%;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 21px;
+}
+.botoes{
+    background: #ff7e61;
+    width: 50%;
+    height: 10%;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.botoes:hover{
+    background: #ee5735;
+}
+.botoes:active{
+    background: #7a247d;
+}
+

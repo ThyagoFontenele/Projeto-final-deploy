@@ -19,16 +19,15 @@ li {
     margin-left: 20px;
 }
 
-a {
+a{
     text-decoration: none;
-    color: #29abe2;
-}
-
-a:hover {
     color: #f5c661;
 }
 
+
 img {
+    margin-top: 10%;
+    margin-left: -50%;
     width: 77px;
     height: 50px;
 }

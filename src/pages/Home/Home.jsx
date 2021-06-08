@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../../components/Header/Header'
+import Header from '../../components/Header/HeaderHome/Header'
 import Card1 from '../../components/Cards/Card1/Card1'
 import Card2 from '../../components/Cards/Card2/Card2'
 import './Home.css'
@@ -13,7 +13,7 @@ function Home() {
             <Header/>
             <main className="main-home">
                 <div>
-                    <h1 className="h1-home">Comes e bebes</h1>
+                    <h1 className="h1-home">Comes&#38;bebes</h1>
                     <p className="p1-home">O serviço que tem a cara da sua fome!</p>
                 </div>
 
