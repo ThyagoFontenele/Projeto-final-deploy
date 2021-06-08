@@ -1,5 +1,10 @@
 body{
-    background: #00ffff;
+    background-color: #29abe2;
+}
+#cadastre-se{
+    font-size: 210%;
+    margin-bottom: 5%;
+    margin-top: 8%;
 }
 .register{
     position: absolute;
@@ -18,46 +23,84 @@ body{
 }
 .back-point-register{
     display: flex;
-    max-width: 4%;
-    min-width: 3%;
-    max-height: 4%;
-    min-height: 3%;
+    max-width: 6%;
+    min-width: 5%;
+    max-height: 6%;
+    min-height: 5%;
     text-align: left;
-    transform: translate(-10%, 40%);
+    transform: translate(-40%, 20%);
 }
 #input{
-    height: 2.7%;
+    height: 3.7%;
     width: 70%;
-    margin-top: 0;
+    margin-top: 0%;
+    margin-bottom: 0.9%;
 }
-#labels{
+.labels{
     display: flex;
     font-size: 90%;
     margin-left: 14%;
-    margin-bottom: 0;
+    margin-bottom: -3%;
+    margin-top:0%;
+}
+.labels-2{
+    display: flex;
+    font-size: 90%;
+    margin-left: 14%;
+    margin-bottom: -3.4%;
+    margin-top: 1%;
 }
 #user-type{
     display: flex;
-    width: 41%;
-    height: 3.5%;
+    width: 40%;
+    height: 4.5%;
     text-align: left;
     margin-left: 14%;
 }
 .date{
-    width: 40%;
-    height: 3.2%;
+    width: 39%;
+    height: 4.2%;
     text-align: left;
-    margin-left: -1%;
+    margin-left: 0%;
     margin-right: 3%;
 }
 
 #telefone{
     font-size: 90%;
-    margin-left: 30%;
+    margin-left: 25%;
     margin-bottom: 0;
-    margin-left: 20%;
 }
 .phone-number{
-    width: 25%;
-    height: 2.9%;
+    width: 27%;
+    height: 3.9%;
+}
+.label-confirmar-senha{
+    font-size: 90%;
+    margin-left: 25%;
+}
+#botao-cadastrar{
+    margin-top: 10%;
+    min-width: 22%;
+    min-height: 4.5%;
+}
+#botao-cadastrar:active{
+    background: #00ffff;
+}
+.input-cadastro-senha{
+    width: 33%;
+    height: 4%;
+    margin-left: 0%;
+}
+
+.input-confirmar-senha{
+    width: 33%;
+    height: 4%;
+    margin-left: 3%;
+}
+.input-endereco{
+    display: flex;
+    width: 70%;
+    height: 3.8%;
+    margin-left: 14%;
+    margin-bottom: -3%;
 }
