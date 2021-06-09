@@ -3,17 +3,20 @@ import Header from '../../components/Header/HeaderHome/Header'
 import Card1 from '../../components/Cards/Card1/Card1'
 import Card2 from '../../components/Cards/Card2/Card2'
 import './Home.css'
-import { Link } from 'react-router-dom'
+import '../../components/Botao/Button.css'
+import Logo from '../../assets/images/comesebebeslogo.svg'
 import CardAvRestaurante from '../../components/Cards/CardAvRestaurante/CardAvRestaurante'
 import Footer from '../../components/Footer/Footer'
+
 
 
 function Home() {
     return (
         <div className="home">
+            <img src={Logo} alt="comes e bebes logo" id="logo"/>
             <Header/>
             <main className="main-home">
-                <div className="header-text-home">
+                <div>
                     <h1 className="h1-home">Comes&#38;bebes</h1>
                     <p className="p1-home">O serviço que tem a cara da sua fome!</p>
                 </div>
