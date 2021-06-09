@@ -20,10 +20,9 @@ function Deliveryman() {
                     <Card/>
                     <Card/>
                 </div>
+               
             </main>
-
-            <Footer/>
-
+            <Footer/>   
         </div>
     )
 }

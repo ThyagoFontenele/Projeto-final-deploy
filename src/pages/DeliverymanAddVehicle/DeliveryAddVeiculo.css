@@ -1,0 +1,85 @@
+#body-add-veiculo{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.658);
+    font-family: 'Roboto', sans-serif;
+}
+#barra-branca{
+    display: flex;
+    margin-left: 13%;
+    width: 70%;
+    height: 0px;
+    margin-top: 2%;
+    border: 1px solid #FAFAFA;
+    margin-bottom: 4%;
+}
+#body-validacao{
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    left: 27%;
+    top: 25%;
+    background: #f5c661;
+    padding: 1%;
+    text-align: center;
+    
+}
+#validacao-entregador-text{
+    display: flex;
+    margin-left: 13%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 220%;
+    line-height: 35px;
+    margin-bottom: 4%;
+    margin-top: 3%;
+}
+#input-verificacao{
+    width: 70%;
+    height: 9%;
+    background: #FAFAFA;
+    display: flex;
+    margin-left: 13%;
+    border: 1px solid #FF7E61;
+    box-sizing: border-box;
+}
+#label-verificacao{
+   margin-bottom: -2%;
+   font-size: 120%;
+   margin-left: 13%;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 21px;
+   display: flex;
+}
+#p-bem-vindo{
+    font-style: normal;
+    width: 60%;
+    display: flex;
+    margin-left: 13%;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+    line-height: 21px;
+    margin-bottom: 4%;
+}
+.botoes-verificacao{
+    background: #ff7e61;
+    margin-top: 5%;
+    margin-left: 0%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 130%;
+    width: 15%;
+    line-height: 150%;
+}
+.botoes-verificacao:hover{
+    background: #ee5735;
+}
+.botoes-verificacao:active{
+    background: #7a247d;
+}
+

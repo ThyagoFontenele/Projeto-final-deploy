@@ -10,7 +10,7 @@ function Register() {
         
         
             <div id="register-page">
-                <img src={Logo} alt="comes e bebes logo" id="logo"/>
+                <Link to="/" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
                 <div className="register">
                     <Link to="/"><img src={BackPoint} alt="seta-voltar"  className="back-point-register"/></Link>
                     <h1 id="cadastre-se">Cadastre-se</h1>
