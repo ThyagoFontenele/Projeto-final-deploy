@@ -32,10 +32,8 @@ function Home() {
                     <CardAvRestaurante/>
                     <CardAvRestaurante/>
                 </div>
-                <Footer/>
             </main>
-
-            
+            <Footer/>
         </div>
     )
 }
