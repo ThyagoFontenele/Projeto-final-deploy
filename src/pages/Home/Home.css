@@ -1,5 +1,4 @@
 .home {
-    position: absolute;
     background-color: #7a247d;
     left: 0;
     top: 0;
@@ -15,6 +14,10 @@
     flex-direction: column;
     
     
+}
+
+.header-text-home {
+    margin: 100px 0;
 }
 
 .h1-home {

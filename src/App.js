@@ -1,4 +1,6 @@
 import Routes from './routes/routes'
+import './CssReset.css'
+import './App.css'
 
 function App() {
   return (

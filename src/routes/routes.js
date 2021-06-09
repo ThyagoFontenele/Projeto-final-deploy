@@ -31,6 +31,10 @@ function routes() {
                     <UserLogged/>
                 </Route>
 
+                <Router exact path="/user-logged">
+                    <UserLogged/>
+                </Router>
+
                 <Route exact path="/404">
                         <NotFound/>
                 </Route>
