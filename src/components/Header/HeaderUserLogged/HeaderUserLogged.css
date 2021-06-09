@@ -1,11 +1,16 @@
-.header-user-logged {
-    background-color: #7A247D;
-    width: 1440px;
-    height: 63px;
-}
+#header-user-logged{
+    display: flex;
+    margin: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 6.5%;
+    background: #7a247d;
 
-.header-user-logged-img {
-    width: 34px;
-    height: 34px;
-    margin-left: 30px;
+}
+.img-user{
+    margin-left: 57%;
+}
+.img-carrinho{
+    margin-left: 3%;
 }

@@ -26,10 +26,10 @@ function routes() {
                 <Route exact path="/forgot-password">
                     <Forgot/>
                 </Route>
-
-                <Router exact path="/user-logged">
+                
+                <Route exact path="/user-page">
                     <UserLogged/>
-                </Router>
+                </Route>
 
                 <Route exact path="/404">
                         <NotFound/>

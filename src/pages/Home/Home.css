@@ -1,6 +1,11 @@
 .home {
+    position: absolute;
     background-color: #7a247d;
-    height: 430px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-home {
@@ -8,45 +13,58 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
     
-}
-
-.header-text-home {
-    margin: 100px 0;
+    
 }
 
 .h1-home {
     font-size: 48px;
     text-align: center;
-    color: #fff;
-    margin: 15px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #FAFAFA;
 }
 
 .p1-home {
     font-size: 24px;
     text-align: center;
-    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FAFAFA;
 }
 
 .display-cards-home {
     display: flex;
+    text-align: center;
+    transform: translate(10%, 30%);
 }
 
 .hr-home {
-    background-color: #c3c3c3;
-    width: 900px;
+    display: flex;
+    width: 100%;
     height: 2px;
     border: none;
-    margin: 100px 0;
+    margin-top: 20%;
+    margin-bottom: 5%;
     background-color: cyan;
+    text-align: center;
 }
 
 .h3-home {
+    display: block;
     color: #29ABE2;
     font-size: 24px;
     font-weight: 400;
-    margin: 20px;
+    text-align: center;
+    margin-bottom: 3%;
+    
 }
 
 .cards-restaurant-group-home {
