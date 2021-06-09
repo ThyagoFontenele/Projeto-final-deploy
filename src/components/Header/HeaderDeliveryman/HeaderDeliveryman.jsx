@@ -6,20 +6,11 @@ import './HeaderDeliveryman.css'
 
 function HeaderDeliveryman() {
     return (
-        <div className="header-logo-user">
-            <header>
-                <div>
-                    <div>
-                        <Link to="/"><img src={Logo} alt="Logo de Comes e Bebes" /></Link>
-                    </div>
-                </div>
-
-                <div>
-                    <ul>
-                        <li><Link to=""><img src={User} alt="" /></Link></li>
-                    </ul>
-                </div>
-            </header>
+        <div>
+            <div className="header-logo-user">
+            <Link to="/" id="logo"><img src={Logo} alt="Logo de Comes e Bebes" /></Link>
+                <img src={User} alt="user icon" className="img-user"/>
+            </div>
         </div>
     )
 }
