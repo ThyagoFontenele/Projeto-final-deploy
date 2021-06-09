@@ -1,0 +1,14 @@
+.header-logo-user {
+    max-width: 1440px;
+    height: 63px;
+    background-color: #7A247D;
+    padding-top: 8px;
+}
+
+.header-logo-user header {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
