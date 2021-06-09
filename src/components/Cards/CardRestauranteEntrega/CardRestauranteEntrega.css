@@ -1,0 +1,21 @@
+.card-deliveryman-restaurante-entrega {
+    width: 900px;
+    height: 64px;
+    margin: 0 auto;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    background-color: #F5C661;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-deliveryman-restaurante-entrega h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-deliveryman-restaurante-entrega p {
+    font-size: 16px;
+    font-weight:normal;
+}
