@@ -1,14 +1,16 @@
-.deliveryman-corpo h2 {
-    font-size: 48px;
-    text-align: center;
-    margin: 100px 0;
-    color: #29ABE2;
-}
-
 .cards-group-deliveryman {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 300px;
     margin-bottom: 100px;
+}
+#barra-branca-entregas{
+    display: flex;
+    width: 46.5%;
+    height: 0px;
+    margin-left: 26.6%;
+    margin-bottom: 1.5%;
+
+    border: 1px solid #C3C3C3;
 }

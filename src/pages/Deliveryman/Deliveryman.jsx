@@ -11,7 +11,8 @@ function Deliveryman() {
 
             <main className="deliveryman-corpo">
                 <div>
-                    <h2>Entregas disponíveis</h2>
+                    <h1 className="user-h1">Entregas disponíveis</h1>
+                    <object  id="barra-branca-entregas"></object>
                 </div>
 
                 <div className="cards-group-deliveryman">
