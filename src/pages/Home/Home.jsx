@@ -2,11 +2,12 @@ import React from 'react'
 import Header from '../../components/Header/HeaderHome/Header'
 import Card1 from '../../components/Cards/Card1/Card1'
 import Card2 from '../../components/Cards/Card2/Card2'
-import Logo from '../../assets/images/comesebebeslogo.svg'
-import '../../components/Botao/Button.css'
 import './Home.css'
-import { Link } from 'react-router-dom'
+import '../../components/Botao/Button.css'
+import Logo from '../../assets/images/comesebebeslogo.svg'
+import CardAvRestaurante from '../../components/Cards/CardAvRestaurante/CardAvRestaurante'
 import Footer from '../../components/Footer/Footer'
+
 
 
 function Home() {
@@ -26,7 +27,16 @@ function Home() {
                 </div>
 
                 <hr className="hr-home"/>
+
+                <h3 className="h3-home">Conheça nossos restaurantes</h3>
+
+                <div className="cards-restaurant-group-home">
+                    <CardAvRestaurante/>
+                    <CardAvRestaurante/>
+                    <CardAvRestaurante/>
+                </div>
             </main>
+            <Footer/>
         </div>
     )
 }

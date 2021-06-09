@@ -1,18 +1,39 @@
 .cards-home {
     width: 260px;
     height: 260px;
-    background-color: #f5c661;
+    border: 1px solid cyan;
+    box-sizing: border-box;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    font-size: 24px;
-    box-sizing: border-box;
-    padding: 20px;
-    border-radius: 5px;
+    margin: 0 50px;
+}
+
+.card-up {
+    background-color: #f5c661;
+    height: 130px;
+    margin: 0;
+    padding: 0;
 
 }
 
-.p-seta {
-    text-align: right;
-    font-size: 48px;
+.card-down {
+    background-color: #ff7e61;
+    height: 130px;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
+
+.card-down p {
+    text-align: left;
+}
+
+.arrow-home {
+    width: 28px;
+    height: 28px;
+    align-self: flex-end;
+}
+

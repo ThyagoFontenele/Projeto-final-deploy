@@ -3,6 +3,7 @@ import './Register.css'
 import { Link } from 'react-router-dom'
 import Logo from '../../assets/images/comesebebeslogo.svg'
 import BackPoint from '../../assets/images/back-point.svg'
+import '../../components/Botao/Button.css'
 function Register() {
     return (
         <div>
