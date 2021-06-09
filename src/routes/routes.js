@@ -27,7 +27,7 @@ function routes() {
                     <Forgot/>
                 </Route>
 
-                <Router exact path="user-logged">
+                <Router exact path="/user-logged">
                     <UserLogged/>
                 </Router>
 
