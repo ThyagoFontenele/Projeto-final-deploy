@@ -4,6 +4,7 @@ import NotFound from '../pages/NotFound/NotFound'
 import Login from '../pages/Login/Login'
 import Register from '../pages/Register/Register'
 import Forgot from '../pages/ForgotPassword/Forgot'
+import UserLogged from '../pages/UserLogged/UserLogged'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 function routes() {
     return (
@@ -25,6 +26,10 @@ function routes() {
                 <Route exact path="/forgot-password">
                     <Forgot/>
                 </Route>
+
+                <Router exact path="user-logged">
+                    <UserLogged/>
+                </Router>
 
                 <Route exact path="/404">
                         <NotFound/>
