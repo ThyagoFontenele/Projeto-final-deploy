@@ -19,14 +19,42 @@ function EditInfo1() {
                     </div>
 
                     <div>
-                        <h2>Editar Dados</h2>
+                        <h2 className="user-h1">Editar Dados</h2>
                     </div>
                 </div>
 
                 <div>
                     <form action="">
                         <label htmlFor="">Nome</label><br />
+                        <input type="text" /><br />
+
+                        <br />
+
+                        <label htmlFor="">Email</label><br />
+                        <input type="text" /><br />
+
+                        <label htmlFor="">CPF</label><br />
+                        <p>111.111.111.-11</p><br />
+
+                        <br />
+
+                        <label htmlFor="">Data de nascimento</label><br />
+                        <input type="text" /><br />
+
+                        <br />
+
+                        <label htmlFor="">Telefone</label><br />
                         <input type="text" />
+
+                        <br />
+
+                        <label htmlFor="">Endereço</label><br />
+                        <input type="text" /><br />
+                        
+                        <div>
+                            <button>Excluir Perfil</button>
+                            <button>Editar</button>
+                        </div>
                     </form>
                 </div>
             </main>
