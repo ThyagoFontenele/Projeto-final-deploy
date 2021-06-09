@@ -1,0 +1,11 @@
+.header-user-logged {
+    background-color: #7A247D;
+    width: 1440px;
+    height: 63px;
+}
+
+.header-user-logged-img {
+    width: 34px;
+    height: 34px;
+    margin-left: 30px;
+}

@@ -13,7 +13,7 @@ function Home() {
         <div className="home">
             <Header/>
             <main className="main-home">
-                <div>
+                <div className="header-text-home">
                     <h1 className="h1-home">Comes&#38;bebes</h1>
                     <p className="p1-home">O serviço que tem a cara da sua fome!</p>
                 </div>

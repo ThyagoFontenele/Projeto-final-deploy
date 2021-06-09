@@ -7,18 +7,16 @@ import './Header.css'
 function Header() {
     return (
         <div>
-            <header>
-                <nav>
+            <header className="header-home-page">
+                <nav className="header-nav-home-page">
                     <div>
-                        <Link to="/" ><img className="logo-header" src={Logo} alt="Logo de Comes e Bebes" /></Link>
+                        <Link to="/" ><img src={Logo} alt="Logo de Comes e Bebes" /></Link>
                     </div>
 
-                    <div>
-                        <ul>
-                            <li><Link to="/register" className="a-header" >Cadastre-se</Link></li>
-                            <li><Link to="/login"><Botao label="Entrar"/></Link></li>
-                        </ul>
-                    </div>
+                    <ul className="header-nav-menu-home-page">
+                        <li><Link to="/register">Cadastre-se</Link></li>
+                        <li><Link to="/login"><Botao label="Entrar"/></Link></li>
+                    </ul>
                 </nav>
             </header>
         </div>
