@@ -4,7 +4,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    
+    height: 285px;
 }
 
 .main-home {
@@ -32,13 +32,24 @@
     display: flex;
 }
 
-.display-cards-home div {
-    margin: 15px;
-}
-
 .hr-home {
     background-color: #c3c3c3;
-    width: 100%;
+    width: 900px;
     height: 2px;
     border: none;
+    margin: 100px 0;
+    background-color: cyan;
+}
+
+.h3-home {
+    color: #29ABE2;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.cards-restaurant-group-home {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
