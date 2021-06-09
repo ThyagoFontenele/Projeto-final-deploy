@@ -8,6 +8,7 @@ import Forgot from '../pages/ForgotPassword/Forgot'
 import UserLogged from '../pages/UserLogged/UserLogged'
 import EditInfo1 from '../pages/EditInfo1/EditInfo1'
 import Deliveryman from '../pages/Deliveryman/Deliveryman'
+import EditInfo1 from '../pages/EditInfo1/EditInfo1'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 function routes() {
     return (
@@ -42,7 +43,7 @@ function routes() {
                     <Deliveryman/>
                 </Route>
 
-                <Route exact path="/">
+                <Route exact path="/edit-info-1">
                     <EditInfo1/>
                 </Route>
 
