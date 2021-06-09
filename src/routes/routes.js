@@ -11,6 +11,7 @@ import Deliveryman from '../pages/Deliveryman/Deliveryman'
 import EditInfo from '../pages/EditInfo1/EditInfo1'
 import UserLoggedIconClicked from '../pages/UserLoggedIconClicked/UserLoggedIconClicked'
 import UserLoggedCartClicked from '../pages/UserLoggedCartClicked/UserLoggedCartClicked'
+import WalletA from '../pages/WalletA/WalletA'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 function routes() {
     return (
@@ -55,6 +56,10 @@ function routes() {
 
                 <Route exact path="/user-logged-cart-clicked">
                     <UserLoggedCartClicked/>
+                </Route>
+
+                <Route exact path="/wallet-a">
+                    <WalletA/>
                 </Route>
 
                 <Route exact path="/404">
