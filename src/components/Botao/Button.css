@@ -1,0 +1,18 @@
+button{
+    background: #ff7e61;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    border-radius: 0;
+    color: #000000;
+    cursor: pointer;
+}
+button:hover{
+    background: #c96f5b;
+}
+button:active{
+    background: #46e7f3;
+}

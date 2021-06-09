@@ -6,8 +6,10 @@ function Forgot() {
     return (
         <>
             <Login/>
+            
             <div id="body-forgot">
                 <div id="body-esqueci">
+                    
                     <h1 id="esqueci-minha-senha-text">Esqueci minha senha</h1>
                     <object id="barra"></object>
                     <br />

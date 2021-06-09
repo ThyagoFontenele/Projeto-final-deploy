@@ -1,27 +1,19 @@
 import React from 'react'
-import Logo from '../../../assets/images/comesebebeslogo.svg'
-import Botao from '../../Botao/Botao'
 import { Link } from 'react-router-dom'
 import './Header.css'
 
 function Header() {
     return (
-        <div>
-            <header>
+        <>
+            <div className="header-home">
                 <nav>
-                    <div>
-                        <Link to="/" ><img src={Logo} alt="Logo de Comes e Bebes" /></Link>
-                    </div>
-
-                    <div>
-                        <ul>
-                            <li><Link to="/register">Cadastre-se</Link></li>
-                            <li><Link to="/login"><Botao label="Entrar"/></Link></li>
-                        </ul>
-                    </div>
+                    <Link to="/register"><p id="cadastre-link">Cadastre-se</p></Link>
+                    <Link to="/login"><button id="botao-entrar">Entrar</button></Link>
                 </nav>
-            </header>
-        </div>
+            </div>
+            
+        </>
+         
     )
 }
 
