@@ -19,9 +19,13 @@ li {
     margin-left: 20px;
 }
 
-a{
+.a-header {
     text-decoration: none;
     color: #f5c661;
+}
+
+.a-header:hover {
+    text-decoration: underline;
 }
 
 .logo-header {

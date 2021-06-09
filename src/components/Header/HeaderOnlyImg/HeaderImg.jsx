@@ -5,9 +5,13 @@ import { Link } from 'react-router-dom'
 function HeaderImg() {
     return (
         <div>
-            <div>
-              <Link to="/" ><img src={Logo} alt="Logo de Comes e Bebes" id="logo-img"/></Link>
-            </div>
+            <header>
+                <nav>
+                    <div>
+                        <Link to="/" ><img className="logo-header" src={Logo} alt="Logo de Comes e Bebes" /></Link>
+                    </div>
+                </nav>
+            </header>
         </div>
     )
 }

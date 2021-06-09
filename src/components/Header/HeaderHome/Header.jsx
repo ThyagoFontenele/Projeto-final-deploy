@@ -15,7 +15,7 @@ function Header() {
 
                     <div>
                         <ul>
-                            <li><Link to="/register">Cadastre-se</Link></li>
+                            <li><Link to="/register" className="a-header" >Cadastre-se</Link></li>
                             <li><Link to="/login"><Botao label="Entrar"/></Link></li>
                         </ul>
                     </div>
