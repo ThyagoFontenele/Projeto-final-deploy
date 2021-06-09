@@ -8,7 +8,6 @@ import Forgot from '../pages/ForgotPassword/Forgot'
 import UserLogged from '../pages/UserLogged/UserLogged'
 import EditInfo1 from '../pages/EditInfo1/EditInfo1'
 import Deliveryman from '../pages/Deliveryman/Deliveryman'
-import EditInfo from '../pages/EditInfo1/EditInfo1'
 import UserLoggedIconClicked from '../pages/UserLoggedIconClicked/UserLoggedIconClicked'
 import UserLoggedCartClicked from '../pages/UserLoggedCartClicked/UserLoggedCartClicked'
 import WalletA from '../pages/WalletA/WalletA'
@@ -47,7 +46,7 @@ function routes() {
                 </Route>
 
                 <Route exact path="/edit-info-1">
-                    <EditInfo/>
+                    <EditInfo1/>
                 </Route>
 
                 <Route exact path="/user-logged-icon-clicked">
