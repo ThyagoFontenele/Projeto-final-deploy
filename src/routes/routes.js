@@ -6,6 +6,7 @@ import Register from '../pages/Register/Register'
 import DeliveryAddVeiculo from '../pages/DeliverymanAddVehicle/DeliveryAddVeiculo'
 import Forgot from '../pages/ForgotPassword/Forgot'
 import UserLogged from '../pages/UserLogged/UserLogged'
+import Deliveryman from '../pages/Deliveryman/Deliveryman'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 function routes() {
     return (
@@ -34,6 +35,10 @@ function routes() {
 
                 <Route exact path="/user-page">
                     <UserLogged/>
+                </Route>
+
+                <Route exact path="/deliveryman">
+                    <Deliveryman/>
                 </Route>
 
                 <Route exact path="/404">

@@ -8,7 +8,7 @@ function Login() {
         <>
             
             <div className="fundo-escuro"> 
-            <img src={Logo} alt="comes e bebes logo" id="logo"/>
+                <Link to="/" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
                 <div className="login">
                     
                     <Link to="/"><img src={BackPoint} alt="seta-voltar"  className="back-point"/></Link>

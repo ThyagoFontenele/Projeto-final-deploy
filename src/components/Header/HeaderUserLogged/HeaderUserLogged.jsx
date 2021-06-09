@@ -9,7 +9,7 @@ function HeaderUserLogged() {
     return (
         <div>
             <div id="header-user-logged">
-                <img src={Logo} alt="logo comes e bebes" id="logo"/>
+                <Link to="/" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
                 <img src={IconUser} alt="user img" className="img-user"/>
                 <img src={Carrinho} alt="carrinho img" className="img-carrinho" />
             </div>
