@@ -1,7 +1,5 @@
-.header-home-page {
+* {
     font-family: 'Roboto', sans-serif;
-    height: 63px;
-    padding-top: 8px;
 }
 #logo{
     margin-left: 18%;

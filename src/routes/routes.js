@@ -3,6 +3,7 @@ import Home from '../pages/Home/Home'
 import NotFound from '../pages/NotFound/NotFound'
 import Login from '../pages/Login/Login'
 import Register from '../pages/Register/Register'
+import DeliveryAddVeiculo from '../pages/DeliverymanAddVehicle/DeliveryAddVeiculo'
 import Forgot from '../pages/ForgotPassword/Forgot'
 import UserLogged from '../pages/UserLogged/UserLogged'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
@@ -27,13 +28,13 @@ function routes() {
                     <Forgot/>
                 </Route>
                 
+                <Route exact path="/delivery-add-cnh">
+                    <DeliveryAddVeiculo/>
+                </Route>
+
                 <Route exact path="/user-page">
                     <UserLogged/>
                 </Route>
-
-                <Router exact path="/user-logged">
-                    <UserLogged/>
-                </Router>
 
                 <Route exact path="/404">
                         <NotFound/>
