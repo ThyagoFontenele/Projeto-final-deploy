@@ -1,13 +1,15 @@
 import React from 'react'
-import Header from '../../components/Header/HeaderHome/Header'
-import Card1 from '../../components/Cards/Card1/Card1'
-import Card2 from '../../components/Cards/Card2/Card2'
 import './Home.css'
 import '../../components/Botao/Button.css'
 import Logo from '../../assets/images/comesebebeslogo.svg'
+import { Link } from 'react-router-dom'
+//Import Components
+import Header from '../../components/Header/HeaderHome/Header'
+import Card1 from '../../components/Cards/Card1/Card1'
+import Card2 from '../../components/Cards/Card2/Card2'
 import CardAvRestaurante from '../../components/Cards/CardAvRestaurante/CardAvRestaurante'
 import Footer from '../../components/Footer/Footer'
-import { Link } from 'react-router-dom'
+
 
 
 function Home() {

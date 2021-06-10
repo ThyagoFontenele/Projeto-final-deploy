@@ -2,13 +2,13 @@
     font-family: 'Roboto', sans-serif;
 }
 #logo{
+    display: flex;
     margin-left: 18%;
-    margin-top: 0.3%;
+    margin-top: 0.5%;
     padding-bottom: 0.3%;
 }
 .header-home{
     display: flex;
-    align-items: center;
     margin-left: 80%;
     margin-bottom: 5%;
 }
@@ -20,7 +20,13 @@
    width: 100%;
 }
 #botao-entrar{
+    display: flex;
+    margin-top: -28%;
     background: #f5c661;
     cursor: pointer;
-    transform: translate(0, -80%);
+
 }
+#botao-entrar:hover{
+    background: #e9ad2d;
+}
+
