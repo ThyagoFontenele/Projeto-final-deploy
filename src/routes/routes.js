@@ -8,8 +8,6 @@ import Forgot from '../pages/ForgotPassword/Forgot'
 import UserLogged from '../pages/UserLogged/UserLogged'
 import EditInfo1 from '../pages/EditInfo1/EditInfo1'
 import Deliveryman from '../pages/Deliveryman/Deliveryman'
-import UserLoggedIconClicked from '../pages/UserLoggedIconClicked/UserLoggedIconClicked'
-import UserLoggedCartClicked from '../pages/UserLoggedCartClicked/UserLoggedCartClicked'
 import WalletA from '../pages/WalletA/WalletA'
 import RestaurantManager from '../pages/RestaurantManager/RestaurantManager'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
@@ -30,7 +28,7 @@ function routes() {
                     <Login/>
                 </Route>
                 
-                <Route exact path="/forgot-password">
+                <Route exact path="/login/forgot-password">
                     <Forgot/>
                 </Route>
                 
@@ -50,14 +48,6 @@ function routes() {
                     <EditInfo1/>
                 </Route>
 
-                <Route exact path="/user-logged-icon-clicked">
-                    <UserLoggedIconClicked/>
-                </Route>
-
-                <Route exact path="/user-logged-cart-clicked">
-                    <UserLoggedCartClicked/>
-                </Route>
-
                 <Route exact path="/wallet-a">
                     <WalletA/>
                 </Route>
@@ -67,11 +57,10 @@ function routes() {
                 </Route>
 
                 <Route exact path="/404">
-                        <NotFound/>
+                    <NotFound/>
                 </Route>
-
                 <Route>
-                        <Redirect to="/404"/>
+                    <Redirect to="/404"/>
                 </Route>
 
             </Switch>

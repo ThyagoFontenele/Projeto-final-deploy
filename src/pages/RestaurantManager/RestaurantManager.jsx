@@ -24,9 +24,8 @@ function RestaurantManager() {
                 </div>
             </main>
 
-            <footer>
-                <Footer/>
-            </footer>
+            
+            <Footer/>
         </div>
     )
 }

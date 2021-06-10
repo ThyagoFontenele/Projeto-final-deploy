@@ -4,7 +4,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 40%;
+    height: 45%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -29,21 +29,20 @@
 }
 
 .p1-home {
-    font-size: 24px;
+    font-size: 150%;
     text-align: center;
     font-style: normal;
     font-weight: 300;
-    font-size: 26px;
     line-height: 30px;
     text-align: center;
-
+    margin-top: 2%;
     color: #FAFAFA;
 }
 
 .display-cards-home {
     display: flex;
     text-align: center;
-    transform: translate(10%, 30%);
+    transform: translate(10%, 40%);
 }
 
 .hr-home {
