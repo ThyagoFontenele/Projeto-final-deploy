@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
 
-function MenuManagement() {
+function EditInfo4() {
     return (
         <div>
             <header>
@@ -9,13 +9,7 @@ function MenuManagement() {
             </header>
 
             <main>
-                <div>
-                    <h1 className="user-h1">Gestão de Restaurante</h1>
-                </div>
 
-                <div>
-
-                </div>
             </main>
 
             <footer>
@@ -25,4 +19,4 @@ function MenuManagement() {
     )
 }
 
-export default MenuManagement
+export default EditInfo4

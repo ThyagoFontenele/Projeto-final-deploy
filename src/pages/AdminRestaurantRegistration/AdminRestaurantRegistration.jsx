@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
 
-function MenuManagement() {
+function AdminRestaurantRegistration() {
     return (
         <div>
             <header>
@@ -10,19 +10,19 @@ function MenuManagement() {
 
             <main>
                 <div>
-                    <h1 className="user-h1">Gestão de Restaurante</h1>
+                    <h1 className="user-h1">Cadastro de Donos de Restaurantes</h1>
                 </div>
 
                 <div>
 
                 </div>
-            </main>
 
-            <footer>
-                <Footer/>
-            </footer>
+                <footer>
+                    <Footer/>
+                </footer>
+            </main>
         </div>
     )
 }
 
-export default MenuManagement
+export default AdminRestaurantRegistration

@@ -1,21 +1,15 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
 
-function MenuManagement() {
+
+function EditInfo3() {
     return (
         <div>
             <header>
-
             </header>
 
             <main>
-                <div>
-                    <h1 className="user-h1">Gestão de Restaurante</h1>
-                </div>
 
-                <div>
-
-                </div>
             </main>
 
             <footer>
@@ -25,4 +19,4 @@ function MenuManagement() {
     )
 }
 
-export default MenuManagement
+export default EditInfo3
