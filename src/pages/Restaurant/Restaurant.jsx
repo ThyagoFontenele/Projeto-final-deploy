@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../components/Header/HeaderUserLogged/HeaderUserLogged'
 import Footer from '../../components/Footer/Footer'
 
-function RestaurantManager() {
+function Restaurant() {
     return (
         <div>
             <header>
@@ -12,7 +12,8 @@ function RestaurantManager() {
             <main>
                 <div>
                     <div>
-                        <h1 className="user-h1">Cadastro de Restaurante</h1>
+                        <h1>Restaurante 1</h1>
+                        <p>Comida Vegana</p>
                     </div>
 
                     <div>
@@ -31,4 +32,4 @@ function RestaurantManager() {
     )
 }
 
-export default RestaurantManager
+export default Restaurant

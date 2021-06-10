@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../components/Header/HeaderUserLogged/HeaderUserLogged'
 import Footer from '../../components/Footer/Footer'
 
-function RestaurantManager() {
+function WalletB() {
     return (
         <div>
             <header>
@@ -11,24 +11,18 @@ function RestaurantManager() {
 
             <main>
                 <div>
-                    <div>
-                        <h1 className="user-h1">Cadastro de Restaurante</h1>
-                    </div>
-
-                    <div>
-
-                    </div>
+                    <h1 className="user-h1">Saldo disponível:</h1>
+                    <p>R$ 240,00</p>
                 </div>
-                <div>
 
+                <div>
+                    
                 </div>
             </main>
 
-            <footer>
-                <Footer/>
-            </footer>
+            <Footer/>
         </div>
     )
 }
 
-export default RestaurantManager
+export default WalletB

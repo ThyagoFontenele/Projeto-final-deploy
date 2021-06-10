@@ -7,9 +7,14 @@ import DeliveryAddVeiculo from '../pages/DeliverymanAddVehicle/DeliveryAddVeicul
 import Forgot from '../pages/ForgotPassword/Forgot'
 import UserLogged from '../pages/UserLogged/UserLogged'
 import EditInfo1 from '../pages/EditInfo1/EditInfo1'
+import EditInfo2 from '../pages/EditInfo2/EditInfo2'
 import Deliveryman from '../pages/Deliveryman/Deliveryman'
 import WalletA from '../pages/WalletA/WalletA'
+import WalletB from '../pages/WalletB/WalletB'
+import Restaurant from '../pages/Restaurant/Restaurant'
 import RestaurantManager from '../pages/RestaurantManager/RestaurantManager'
+import NotValidatedDeliveryman from '../pages/NotValidatedDeliveryman/NotValidatedDeliveryman'
+import DeliverymanPageDeliveryClicked from '../pages/DeliverymanPageDeliveryClicked/DeliverymanPageDeliveryClicked'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 function routes() {
     return (
@@ -48,17 +53,38 @@ function routes() {
                     <EditInfo1/>
                 </Route>
 
+                <Route exact path="/edit-info-2">
+                    <EditInfo2/>
+                </Route>
+
                 <Route exact path="/wallet-a">
                     <WalletA/>
+                </Route>
+
+                <Route exact path="/wallet-b">
+                    <WalletB/>
+                </Route>
+
+                <Route exact path="/restaurant">
+                    <Restaurant/>
                 </Route>
 
                 <Route exact path="/restaurant-manager">
                     <RestaurantManager/>
                 </Route>
 
+                <Route exact path="/not-validated-deliveryman">
+                    <NotValidatedDeliveryman/>
+                </Route>
+
+                <Route exact path="/deliveryman-page-delivery-clicked">
+                    <DeliverymanPageDeliveryClicked/>
+                </Route>
+
                 <Route exact path="/404">
                     <NotFound/>
                 </Route>
+
                 <Route>
                     <Redirect to="/404"/>
                 </Route>
