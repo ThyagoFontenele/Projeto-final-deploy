@@ -1,10 +1,70 @@
 #menu-container{
     position: absolute;
-    width: 192px;
-    height: 215px;
+    width: 7%;
+    height: 15%;
     left: 75%;
     top: 6.7%;
     background-color: #F5C661;
     border: 1px solid #FF7E61;
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
     
+}
+.user-barra{
+    display: flex;
+    width: 100%;
+    height: 0px;
+    left: 24px;
+    top: 71px;
+    border: 1px solid #000000;
+}
+.user-hello{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 5%;
+    color: #000000;
+}
+.user-wallet{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 12%;
+    margin-left: 20%;
+    margin-top: 12%;
+    color: #000000;
+}
+.img-carteira{
+    position: absolute;
+    left: 15%;
+    top: 41.5%;
+}
+.img-settings{
+    position: absolute;
+    left: 15%;
+    top: 58%;
+}
+.img-logout{
+    position: absolute;
+    left: 17%;
+    top: 77%;
+}
+.user-edit{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 12%;
+    margin-left: 20%;
+}
+.user-logout{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-left: 20%;
 }

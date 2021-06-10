@@ -11,8 +11,8 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background: #c96f5b;
+    background: #df6145;
 }
 button:active{
-    background: #46e7f3;
+    background: #7A247D;
 }
