@@ -11,6 +11,7 @@ import Deliveryman from '../pages/Deliveryman/Deliveryman'
 import UserLoggedIconClicked from '../pages/UserLoggedIconClicked/UserLoggedIconClicked'
 import UserLoggedCartClicked from '../pages/UserLoggedCartClicked/UserLoggedCartClicked'
 import WalletA from '../pages/WalletA/WalletA'
+import RestaurantManager from '../pages/RestaurantManager/RestaurantManager'
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 function routes() {
     return (
@@ -59,6 +60,10 @@ function routes() {
 
                 <Route exact path="/wallet-a">
                     <WalletA/>
+                </Route>
+
+                <Route exact path="/restaurant-manager">
+                    <RestaurantManager/>
                 </Route>
 
                 <Route exact path="/404">
