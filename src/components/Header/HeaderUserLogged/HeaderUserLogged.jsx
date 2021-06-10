@@ -5,6 +5,7 @@ import '../../Reset/Reset.css'
 import Carrinho from '../../../assets/images/carrinho.svg'
 import IconUser from '../../../assets/images/user-icon.svg'
 import Logo from '../../../assets/images/comesebebeslogo.svg'
+
 function HeaderUserLogged() {
     return (
         <div>

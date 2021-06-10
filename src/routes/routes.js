@@ -36,8 +36,8 @@ function routes() {
                 <Route exact path="/user-page">
                     <UserLogged/>
                 </Route>
-
-                <Route exact path="/deliveryman">
+            
+                <Route exact path="/user-page/deliveryman">
                     <Deliveryman/>
                 </Route>
 

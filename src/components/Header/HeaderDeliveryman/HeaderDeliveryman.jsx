@@ -9,7 +9,7 @@ function HeaderDeliveryman() {
         <div>
             <div className="header-logo-user">
             <Link to="/" id="logo"><img src={Logo} alt="Logo de Comes e Bebes" /></Link>
-                <img src={User} alt="user icon" className="img-user"/>
+            <img src={User} alt="user icon" className="img-user" />
             </div>
         </div>
     )
