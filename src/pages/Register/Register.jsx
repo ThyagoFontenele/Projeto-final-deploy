@@ -1,8 +1,9 @@
 import React from 'react'
 import './Register.css'
-import { Link } from 'react-router-dom'
-import Logo from '../../assets/images/comesebebeslogo.svg'
 import BackPoint from '../../assets/images/back-point.svg'
+import { Link } from 'react-router-dom'
+//Import Components
+import Logo from '../../assets/images/comesebebeslogo.svg'
 import '../../components/Botao/Button.css'
 function Register() {
     return (

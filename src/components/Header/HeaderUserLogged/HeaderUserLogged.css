@@ -9,8 +9,10 @@
 
 }
 .img-user{
-    margin-left: 57%;
+    margin-left: 60%;
+    cursor: pointer;
 }
 .img-carrinho{
     margin-left: 3%;
+    cursor: pointer;
 }

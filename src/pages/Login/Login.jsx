@@ -22,7 +22,7 @@ function Login() {
                     <br />
                     <button className="botao-entrar">Entrar</button>
                     <br />
-                    <Link to="/forgot-password"><p className="esqueci-senha">Esqueci minha senha</p></Link>
+                    <Link to="/login/forgot-password"><p className="esqueci-senha">Esqueci minha senha</p></Link>
                 </div>
             </div>
            

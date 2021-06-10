@@ -8,8 +8,8 @@ function HeaderDeliveryman() {
     return (
         <div>
             <div className="header-logo-user">
-            <Link to="/" id="logo"><img src={Logo} alt="Logo de Comes e Bebes" /></Link>
-                <img src={User} alt="user icon" className="img-user"/>
+            <Link to="/user-page" id="logo"><img src={Logo} alt="Logo de Comes e Bebes" /></Link>
+            <img src={User} alt="user icon" className="img-user" />
             </div>
         </div>
     )
