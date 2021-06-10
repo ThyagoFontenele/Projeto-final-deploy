@@ -3,9 +3,10 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <div>
-            <footer className="div-footer"></footer>
+        <div className="main-footer">
+    
         </div>
+        
     )
 }
 
