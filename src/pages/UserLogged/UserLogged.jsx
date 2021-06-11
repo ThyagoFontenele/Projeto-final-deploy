@@ -9,6 +9,7 @@ function UserLogged() {
             <Header/>
             <div >
                <h1 className="user-h1">O que vamos pedir hoje?</h1>
+               <div id="barra-style"></div>
             </div>
             <Footer/>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import './EditInfo1.css'
+import './EditInfoUser.css'
 import Header from '../../../components/Header/HeaderUserOnly/HeaderUserOnly'
 import ArrowBefore from '../../../assets/images/before-point.svg'
 import { Link } from 'react-router-dom'
@@ -20,6 +20,7 @@ function EditInfo1() {
 
                     <div>
                         <h2 className="user-h1">Editar Dados</h2>
+                        <div id="barra-style"></div>
                     </div>
                 </div>
 

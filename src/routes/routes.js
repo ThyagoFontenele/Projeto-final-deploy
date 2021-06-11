@@ -9,10 +9,10 @@ import DeliveryAddVeiculo from '../pages/DeliverymanAddVehicle/DeliveryAddVeicul
 
 import UserLogged from '../pages/UserLogged/UserLogged'
 
-import EditInfo1 from '../pages/EditInfo/EditInfoUser/EditInfo1'
-import EditInfo2 from '../pages/EditInfo/EditInfoRestaurant/EditInfo2'
-import EditInfo3 from '../pages/EditInfo/EditInfoAdmin/EditInfo3'
-import EditInfo4 from '../pages/EditInfo/EditInfoDeliveryman/EditInfo4'
+import EditInfoUser from '../pages/EditInfo/EditInfoUser/EditInfoUser'
+import EditInfoRestaurant from '../pages/EditInfo/EditInfoRestaurant/EditInfoRestaurant'
+import EditInfoAdmin from '../pages/EditInfo/EditInfoAdmin/EditInfoAdmin'
+import EditInfoDeliveryman from '../pages/EditInfo/EditInfoDeliveryman/EditInfoDeliveryman'
 
 import Deliveryman from '../pages/Deliveryman/Deliveryman'
 import WalletA from '../pages/WalletA/WalletA'
@@ -68,20 +68,20 @@ function routes() {
                     <Deliveryman/>
                 </Route>
 
-                <Route exact path="/edit-info-1">
-                    <EditInfo1/>
+                <Route exact path="/user/edit">
+                    <EditInfoUser/>
                 </Route>
 
-                <Route exact path="/edit-info-2">
-                    <EditInfo2/>
+                <Route exact path="/restaurant/edit">
+                    <EditInfoRestaurant/>
                 </Route>
 
-                <Route exact path="/edit-info-3">
-                    <EditInfo3/>
+                <Route exact path="/admin/edit">
+                    <EditInfoAdmin/>
                 </Route>
 
-                <Route exact path="/edit-info-4">
-                    <EditInfo4/>
+                <Route exact path="/deliveryman/edit">
+                    <EditInfoDeliveryman/>
                 </Route>
 
                 <Route exact path="/wallet-compra">
@@ -140,12 +140,12 @@ function routes() {
                     <Orders/>
                 </Route>
 
-                <Route exact path="/404">
+                <Route exact path="/DeliverEditInfoDeliveryman0DeliverEditInfoDeliveryman">
                     <NotFound/>
                 </Route>
 
                 <Route>
-                    <Redirect to="/404"/>
+                    <Redirect to="/DeliverEditInfoDeliveryman0DeliverEditInfoDeliveryman"/>
                 </Route>
 
             </Switch>

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../EditInfoUser/EditInfo1.css'
+import '../EditInfoUser/EditInfoUser.css'
 import Header from '../../../components/Header/HeaderUserOnly/HeaderUserOnly'
 import ArrowBefore from '../../../assets/images/before-point.svg'
 import { Link } from 'react-router-dom'

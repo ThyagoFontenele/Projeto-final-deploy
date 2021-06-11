@@ -1,0 +1,9 @@
+#barra-style{
+    background: #c3c3c3;
+    position: absolute;
+    width: 60%;
+    height: 0px;
+    left: 20%;
+    top: 30%;
+    border: 1px solid #C3C3C3;
+}
