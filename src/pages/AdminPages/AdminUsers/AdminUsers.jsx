@@ -8,6 +8,7 @@ function AdminUsers() {
             <Header/>
             <div>
                 <h1 className="user-h1">Lista de usuários</h1>
+                <div id="barra-style"></div>
             </div>
         
             <Footer/>

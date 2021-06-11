@@ -29,7 +29,7 @@ import StockManagement from '../pages/StockManagement/StockManagement'
 
 import AdminRestaurantRegistration from '../pages/AdminPages/AdminRestaurantRegistration/AdminRestaurantRegistration'
 import AdminUsers from '../pages/AdminPages/AdminUsers/AdminUsers'
-import AdminDeliverymen from '../pages/AdminPages/AdminDeliveryman/AdminDelivarymen'
+import AdminDeliveryman from '../pages/AdminPages/AdminDeliveryman/AdminDelivarymen'
 
 import Results from '../pages/Results/Results'
 import Orders from '../pages/Orders/Orders'
@@ -96,8 +96,8 @@ function routes() {
                     <AdminUsers/>
                 </Route>
 
-                <Route exact path="/admin-deliverymen">
-                    <AdminDeliverymen/>
+                <Route exact path="/admin-deliveryman">
+                    <AdminDeliveryman/>
                 </Route>
 
                 <Route exact path="/restaurant">
