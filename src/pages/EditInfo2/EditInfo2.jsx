@@ -1,6 +1,6 @@
 import React from 'react'
 import '../EditInfo1/EditInfo1.css'
-import Header from '../../components/Header/HeaderDeliveryman/HeaderDeliveryman'
+import Header from '../../components/Header/HeaderUserOnly/HeaderUserOnly'
 import ArrowBefore from '../../assets/images/before-point.svg'
 import { Link } from 'react-router-dom'
 import Footer from '../../components/Footer/Footer'

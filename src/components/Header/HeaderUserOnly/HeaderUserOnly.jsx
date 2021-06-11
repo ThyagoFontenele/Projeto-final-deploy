@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import Logo from '../../../assets/images/comesebebeslogo.svg'
 import User from '../../../assets/images/user-icon.svg'
-import './HeaderDeliveryman.css'
+import './HeaderUserOnly.css'
 
 function HeaderDeliveryman() {
     return (

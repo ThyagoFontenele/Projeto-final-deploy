@@ -1,48 +1,36 @@
-import React, { useState } from 'react'
-import './HeaderUserLogged.css'
-
-import '../../Reset/Reset.css'
 import { Link } from 'react-router-dom'
-import Carrinho from '../../../assets/images/carrinho.svg'
+import React, { useState } from 'react'
 import IconUser from '../../../assets/images/user-icon.svg'
 import Logo from '../../../assets/images/comesebebeslogo.svg'
 import MenuUser from '../MenuUser/MenuUser'
-import MenuBag from '../MenuBag/MenuBag'
+import './HeaderRestaurant.css'
 
-
-
-function HeaderUserLogged() {
+function HeaderRestaurant() {
     const [buttonMenu, setMenu] = useState(false);
-    const [buttonBag, setBag] = useState(false);
     const toggleButtonMenu = () =>{
         if(buttonMenu == false){
             setMenu(true)
-            setBag(false)
         }
         else{
             setMenu(false)
-        }
-    }
-    const toggleButtonBag = () =>{
-        if(buttonBag == false){
-            setBag(true)
-            setMenu(false)
-        }
-        else{
-            setBag(false)
         }
     }
     return (
         <div>
             <div id="header-user-logged">
                 <Link to="/user-page" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
+                <div>
+                    <Link><p id="gestao-restaurante-link">Gestão de Restaurante</p></Link>
+                    <Link><p id="gestao-estoque-link">Gestão de Estoque</p></Link>
+                    <Link><p id="resultados-link">Resultados</p></Link>
+                    <Link><p id="pedidos-link">Pedidos</p></Link>
+                </div>
                 <img src={IconUser} alt="user img" className="img-user" onClick={toggleButtonMenu} />
-                <img src={Carrinho} alt="carrinho img" className="img-carrinho"  onClick={toggleButtonBag}/>
                 <MenuUser trigger={buttonMenu}/>
-                <MenuBag trigger={buttonBag}/>
             </div>
+            
         </div>
     )
 }
 
-export default HeaderUserLogged
+export default HeaderRestaurant

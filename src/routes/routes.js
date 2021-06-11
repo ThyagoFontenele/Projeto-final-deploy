@@ -84,11 +84,11 @@ function routes() {
                     <EditInfo4/>
                 </Route>
 
-                <Route exact path="/wallet-a">
+                <Route exact path="/wallet-compra">
                     <WalletA/>
                 </Route>
 
-                <Route exact path="/wallet-b">
+                <Route exact path="/wallet-entrega">
                     <WalletB/>
                 </Route>
 
@@ -96,15 +96,15 @@ function routes() {
                     <Restaurant/>
                 </Route>
 
-                <Route exact path="/admin-restaurant-registration">
+                <Route exact path="/admin/restaurant/register">
                     <AdminRestaurantRegistration/>
                 </Route>
 
-                <Route exact path="/restaurant-manager">
+                <Route exact path="/restaurant/manager">
                     <RestaurantManager/>
                 </Route>
 
-                <Route exact path="/menu-management">
+                <Route exact path="/restaurant/manager/management">
                     <MenuManagement/>
                 </Route>
 

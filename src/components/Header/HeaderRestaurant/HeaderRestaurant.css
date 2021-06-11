@@ -1,0 +1,44 @@
+#gestao-restaurante-link{
+    position: absolute;
+    left: 35%;
+    top: 2.5%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F5C661;
+}
+#gestao-estoque-link{
+    position: absolute;
+    left: 46%;
+    top: 2.5%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F5C661;
+}
+#resultados-link{
+    position: absolute;
+    left: 56%;
+    top: 2.5%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F5C661;
+}
+#pedidos-link{
+    left: 63%;
+    top: 2.5%;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F5C661;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../../components/Header/HeaderDeliveryman/HeaderDeliveryman'
+import Header from '../../components/Header/HeaderUserOnly/HeaderUserOnly'
 import Footer from '../../components/Footer/Footer'
 
 function DeliverymanPageDeliveryClicked() {
