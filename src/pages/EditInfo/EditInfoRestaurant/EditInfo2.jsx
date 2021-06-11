@@ -1,11 +1,11 @@
 import React from 'react'
-import './EditInfo1.css'
-import Header from '../../components/Header/HeaderUserOnly/HeaderUserOnly'
-import ArrowBefore from '../../assets/images/before-point.svg'
+import '../EditInfoUser/EditInfo1.css'
+import Header from '../../../components/Header/HeaderUserOnly/HeaderUserOnly'
+import ArrowBefore from '../../../assets/images/before-point.svg'
 import { Link } from 'react-router-dom'
-import Footer from '../../components/Footer/Footer'
+import Footer from '../../../components/Footer/Footer'
 
-function EditInfo1() {
+function EditInfo2() {
     return (
         <div>
             <header>
@@ -66,4 +66,4 @@ function EditInfo1() {
     )
 }
 
-export default EditInfo1
+export default EditInfo2

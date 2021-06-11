@@ -1,0 +1,33 @@
+#lista-usuarios-link{
+    position: absolute;
+    left: 30%;
+    top: 2.5%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F5C661;
+}
+#admissao-link{
+    position: absolute;
+    left: 40%;
+    top: 2.5%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F5C661;
+}
+#cadastrar-dono-link{
+    position: absolute;
+    left: 54%;
+    top: 2.5%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F5C661;
+}

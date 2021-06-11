@@ -1,28 +1,36 @@
 import React from 'react'
 import Home from '../pages/Home/Home'
-import AdminUsers from '../pages/AdminUsers/AdminUsers'
-import AdminDeliverymen from '../pages/AdminDeliverymen/AdminDeliverymen'
+
 import NotFound from '../pages/NotFound/NotFound'
 import Login from '../pages/Login/Login'
 import Register from '../pages/Register/Register'
-import DeliveryAddVeiculo from '../pages/DeliverymanAddVehicle/DeliveryAddVeiculo'
 import Forgot from '../pages/ForgotPassword/Forgot'
+import DeliveryAddVeiculo from '../pages/DeliverymanAddVehicle/DeliveryAddVeiculo'
+
 import UserLogged from '../pages/UserLogged/UserLogged'
-import EditInfo1 from '../pages/EditInfo1/EditInfo1'
-import EditInfo2 from '../pages/EditInfo2/EditInfo2'
-import EditInfo3 from '../pages/EditInfo3/EditInfo3'
-import EditInfo4 from '../pages/EditInfo4/EditInfo4'
+
+import EditInfo1 from '../pages/EditInfo/EditInfoUser/EditInfo1'
+import EditInfo2 from '../pages/EditInfo/EditInfoRestaurant/EditInfo2'
+import EditInfo3 from '../pages/EditInfo/EditInfoAdmin/EditInfo3'
+import EditInfo4 from '../pages/EditInfo/EditInfoDeliveryman/EditInfo4'
+
 import Deliveryman from '../pages/Deliveryman/Deliveryman'
 import WalletA from '../pages/WalletA/WalletA'
 import WalletB from '../pages/WalletB/WalletB'
+
 import Restaurant from '../pages/Restaurant/Restaurant'
 import RestaurantManager from '../pages/RestaurantManager/RestaurantManager'
+
 import MenuManagement from '../pages/MenuManagement/MenuManagement'
 import NotValidatedDeliveryman from '../pages/NotValidatedDeliveryman/NotValidatedDeliveryman'
 import DeliverymanPageDeliveryClicked from '../pages/DeliverymanPageDeliveryClicked/DeliverymanPageDeliveryClicked'
 import CreateNewPlateDiolog from '../pages/CreateNewPlateDiolog/CreateNewPlateDiolog'
 import StockManagement from '../pages/StockManagement/StockManagement'
-import AdminRestaurantRegistration from '../pages/AdminRestaurantRegistration/AdminRestaurantRegistration'
+
+import AdminRestaurantRegistration from '../pages/AdminPages/AdminRestaurantRegistration/AdminRestaurantRegistration'
+import AdminUsers from '../pages/AdminPages/AdminUsers/AdminUsers'
+import AdminDeliverymen from '../pages/AdminPages/AdminDeliveryman/AdminDelivarymen'
+
 import Results from '../pages/Results/Results'
 import Orders from '../pages/Orders/Orders'
 
@@ -34,14 +42,6 @@ function routes() {
 
                 <Route exact path="/">
                     <Home/>
-                </Route>
-
-                <Route exact path="/admin-users">
-                    <AdminUsers/>
-                </Route>
-
-                <Route exact path="/admin-deliverymen">
-                    <AdminDeliverymen/>
                 </Route>
 
                 <Route exact path="/register">
@@ -56,14 +56,14 @@ function routes() {
                     <Forgot/>
                 </Route>
                 
-                <Route exact path="/delivery-add-cnh">
-                    <DeliveryAddVeiculo/>
-                </Route>
-
                 <Route exact path="/user-page">
                     <UserLogged/>
                 </Route>
             
+                <Route exact path="/delivery-add-cnh">
+                    <DeliveryAddVeiculo/>
+                </Route>
+
                 <Route exact path="/user-page/deliveryman">
                     <Deliveryman/>
                 </Route>
@@ -90,6 +90,14 @@ function routes() {
 
                 <Route exact path="/wallet-entrega">
                     <WalletB/>
+                </Route>
+
+                <Route exact path="/admin-users">
+                    <AdminUsers/>
+                </Route>
+
+                <Route exact path="/admin-deliverymen">
+                    <AdminDeliverymen/>
                 </Route>
 
                 <Route exact path="/restaurant">

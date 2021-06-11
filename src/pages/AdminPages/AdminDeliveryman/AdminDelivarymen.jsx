@@ -1,7 +1,7 @@
 import React from 'react'
-import Footer from '../../components/Footer/Footer'
+import Footer from '../../../components/Footer/Footer'
 
-function AdminDeliverymen() {
+function AdminDeliveryman() {
     return (
         <div>
             <header>
@@ -25,4 +25,4 @@ function AdminDeliverymen() {
     )
 }
 
-export default AdminDeliverymen
+export default AdminDeliveryman
