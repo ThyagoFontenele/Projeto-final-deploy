@@ -5,9 +5,7 @@ import Footer from '../../components/Footer/Footer'
 function NotValidatedDeliveryman() {
     return (
         <div>
-            <header>
-                <Header/>
-            </header>
+            <Header/>
 
             <main>
                 <h1 className="user-h1">Entregas disponíveis</h1>

@@ -8,9 +8,7 @@ import Footer from '../../../components/Footer/Footer'
 function EditInfoUser() {
     return (
         <div>
-            <header>
-                <Header/>
-            </header>
+            <Header/>
 
             <main>
                 <div>

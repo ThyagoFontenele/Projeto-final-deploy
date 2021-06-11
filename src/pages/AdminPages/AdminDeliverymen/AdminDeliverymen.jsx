@@ -1,12 +1,11 @@
 import React from 'react'
+import Header from '../../../components/Header/HeaderAdmin/HeaderAdmin'
 import Footer from '../../../components/Footer/Footer'
 
-function AdminDeliveryman() {
+function AdminDeliverymen() {
     return (
         <div>
-            <header>
-
-            </header>
+            <Header/>
 
             <main>
                 <div>
@@ -25,4 +24,4 @@ function AdminDeliveryman() {
     )
 }
 
-export default AdminDeliveryman
+export default AdminDeliverymen

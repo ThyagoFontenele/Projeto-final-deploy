@@ -29,7 +29,7 @@ import StockManagement from '../pages/StockManagement/StockManagement'
 
 import AdminRestaurantRegistration from '../pages/AdminPages/AdminRestaurantRegistration/AdminRestaurantRegistration'
 import AdminUsers from '../pages/AdminPages/AdminUsers/AdminUsers'
-import AdminDeliveryman from '../pages/AdminPages/AdminDeliveryman/AdminDelivarymen'
+import AdminDeliveryman from '../pages/AdminPages/AdminDeliverymen/AdminDeliverymen'
 
 import Results from '../pages/Results/Results'
 import Orders from '../pages/Orders/Orders'

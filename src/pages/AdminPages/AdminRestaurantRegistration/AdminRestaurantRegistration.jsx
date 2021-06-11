@@ -1,12 +1,11 @@
 import React from 'react'
+import Header from '../../../components/Header/HeaderAdmin/HeaderAdmin'
 import Footer from '../../../components/Footer/Footer'
 
 function AdminRestaurantRegistration() {
     return (
         <div>
-            <header>
-
-            </header>
+            <Header/>
 
             <main>
                 <div>

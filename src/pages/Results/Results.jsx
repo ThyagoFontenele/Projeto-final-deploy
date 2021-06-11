@@ -1,12 +1,11 @@
 import React from 'react'
+import Header from '../../components/Header/HeaderRestaurant/HeaderRestaurant'
 import Footer from '../../components/Footer/Footer'
 
 function Results() {
     return (
         <div>
-            <header>
-
-            </header>
+            <Header/>
 
             <main>
                 <div>
@@ -18,9 +17,7 @@ function Results() {
                 </div>
             </main>
 
-            <footer>
-                <Footer/>
-            </footer>
+            <Footer/>
         </div>
     )
 }

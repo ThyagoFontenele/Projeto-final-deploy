@@ -1,12 +1,11 @@
 import React from 'react'
+import Header from '../../components/Header/HeaderRestaurant/HeaderRestaurant'
 import Footer from '../../components/Footer/Footer'
 
 function StockManagement() {
     return (
         <div>
-            <header>
-
-            </header>
+            <Header/>
 
             <main>
                 <div>
