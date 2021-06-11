@@ -1,16 +1,14 @@
 import React from 'react'
 import '../EditInfoUser/EditInfoUser.css'
-import Header from '../../../components/Header/HeaderUserOnly/HeaderUserOnly'
+import Header from '../../../components/Header/HeaderRestaurant/HeaderRestaurant'
 import ArrowBefore from '../../../assets/images/before-point.svg'
 import { Link } from 'react-router-dom'
 import Footer from '../../../components/Footer/Footer'
 
-function EditInfo2() {
+function EditInfoRestaurant() {
     return (
         <div>
-            <header>
-                <Header/>
-            </header>
+            <Header/>
 
             <main>
                 <div>
@@ -66,4 +64,4 @@ function EditInfo2() {
     )
 }
 
-export default EditInfo2
+export default EditInfoRestaurant

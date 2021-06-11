@@ -16,7 +16,7 @@ function HeaderAdmin() {
         }
     }
     return (
-        <div>
+        <header>
             <div id="header-admin">
                 <Link to="/user-page" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
                 <div>
@@ -28,7 +28,7 @@ function HeaderAdmin() {
                 <MenuUser trigger={buttonMenu}/>
             </div>
             
-        </div>
+        </header>
     )
 }
 

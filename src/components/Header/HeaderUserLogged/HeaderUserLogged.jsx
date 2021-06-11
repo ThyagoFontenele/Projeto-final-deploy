@@ -33,7 +33,7 @@ function HeaderUserLogged() {
         }
     }
     return (
-        <div>
+        <header>
             <div id="header-user-logged">
                 <Link to="/user-page" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
                 <img src={IconUser} alt="user img" className="img-user" onClick={toggleButtonMenu} />
@@ -41,7 +41,7 @@ function HeaderUserLogged() {
                 <MenuUser trigger={buttonMenu}/>
                 <MenuBag trigger={buttonBag}/>
             </div>
-        </div>
+        </header>
     )
 }
 

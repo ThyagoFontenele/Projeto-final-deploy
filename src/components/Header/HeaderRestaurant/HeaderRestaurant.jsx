@@ -16,7 +16,7 @@ function HeaderRestaurant() {
         }
     }
     return (
-        <div>
+        <header>
             <div id="header-user-logged">
                 <Link to="/user-page" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
                 <div id="container-restaurant-links">
@@ -29,7 +29,7 @@ function HeaderRestaurant() {
                 <MenuUser trigger={buttonMenu}/>
             </div>
             
-        </div>
+        </header>
     )
 }
 

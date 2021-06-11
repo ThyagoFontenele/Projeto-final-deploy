@@ -1,15 +1,21 @@
 import React from 'react'
+import Header from '../../../components/Header/HeaderAdmin/HeaderAdmin'
 import Footer from '../../../components/Footer/Footer'
 
 
-function EditInfo3() {
+function EditInfoAdmin() {
     return (
         <div>
-            <header>
-            </header>
+            <Header/>
 
             <main>
+                <div>
+                    <h1 className="user-h1">Editar dados</h1>
+                </div>
 
+                <div>
+
+                </div>
             </main>
 
             <footer>
@@ -19,4 +25,4 @@ function EditInfo3() {
     )
 }
 
-export default EditInfo3
+export default EditInfoAdmin

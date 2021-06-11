@@ -1,11 +1,11 @@
 import React from 'react'
 import './EditInfoUser.css'
-import Header from '../../../components/Header/HeaderUserOnly/HeaderUserOnly'
+import Header from '../../../components/Header/HeaderUserLogged/HeaderUserLogged'
 import ArrowBefore from '../../../assets/images/before-point.svg'
 import { Link } from 'react-router-dom'
 import Footer from '../../../components/Footer/Footer'
 
-function EditInfo1() {
+function EditInfoUser() {
     return (
         <div>
             <header>
@@ -67,4 +67,4 @@ function EditInfo1() {
     )
 }
 
-export default EditInfo1
+export default EditInfoUser

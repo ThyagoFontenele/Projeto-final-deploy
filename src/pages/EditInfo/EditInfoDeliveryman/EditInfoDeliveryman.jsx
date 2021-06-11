@@ -1,17 +1,21 @@
 import React from 'react'
+import Header from '../../../components/Header/HeaderUserOnly/HeaderUserOnly'
 import Footer from '../../../components/Footer/Footer'
 
-function EditInfo4() {
+function EditInfoDeliveryman() {
     return (
         <div>
-            <header>
-
-            </header>
-
+            <Header/>
             <main>
 
             </main>
+                <div>
+                    <h1 className="user-h1">Editar dados</h1>
+                </div>
 
+                <div>
+
+                </div>
             <footer>
                 <Footer/>
             </footer>
@@ -19,4 +23,4 @@ function EditInfo4() {
     )
 }
 
-export default EditInfo4
+export default EditInfoDeliveryman
