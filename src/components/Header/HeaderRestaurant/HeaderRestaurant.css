@@ -1,44 +1,38 @@
-#gestao-restaurante-link{
-    position: absolute;
-    left: 35%;
-    top: 2.5%;
+#container-restaurant-links{
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
+    
+}
+#gestao-restaurante-link{
+    margin-left: 60%;
+    margin-top: 15%;
+    width: 100%;
     color: #F5C661;
+  
 }
 #gestao-estoque-link{
-    position: absolute;
-    left: 46%;
-    top: 2.5%;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
+    margin-left: 200%;
+    margin-top: -11%;
+    width: 100%;
     color: #F5C661;
 }
 #resultados-link{
-    position: absolute;
-    left: 56%;
-    top: 2.5%;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
+    margin-left: 320%;
+    margin-top: -12%;
+    width: 100%;
     color: #F5C661;
 }
 #pedidos-link{
-    left: 63%;
-    top: 2.5%;
-    position: absolute;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
+    margin-left: 420%;
+    margin-top: -11%;
+    width: 100%;
     color: #F5C661;
+}
+.user-restaurant{
+    margin-left: 52%;
+    cursor: pointer;
 }

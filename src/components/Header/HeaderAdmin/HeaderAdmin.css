@@ -1,7 +1,6 @@
 #lista-usuarios-link{
-    position: absolute;
-    left: 30%;
-    top: 2.5%;
+    margin-left: 40%;
+    margin-top: 13%;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -10,9 +9,9 @@
     color: #F5C661;
 }
 #admissao-link{
-    position: absolute;
-    left: 40%;
-    top: 2.5%;
+    width: 100%;
+    margin-left: 160%;
+    margin-top: -9%;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -21,13 +20,27 @@
     color: #F5C661;
 }
 #cadastrar-dono-link{
-    position: absolute;
-    left: 54%;
-    top: 2.5%;
+    width: 100%;
+    margin-left: 300%;
+    margin-top: -9%;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     color: #F5C661;
+}
+#header-admin {
+    display: flex;
+    margin: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 6.5%;
+    max-height: 70px;
+    background: #7a247d;
+}
+.user-admin{
+    margin-left: 48%;
+    cursor: pointer;
 }

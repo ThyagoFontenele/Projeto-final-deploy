@@ -140,12 +140,12 @@ function routes() {
                     <Orders/>
                 </Route>
 
-                <Route exact path="/DeliverEditInfoDeliveryman0DeliverEditInfoDeliveryman">
+                <Route exact path="/404">
                     <NotFound/>
                 </Route>
 
                 <Route>
-                    <Redirect to="/DeliverEditInfoDeliveryman0DeliverEditInfoDeliveryman"/>
+                    <Redirect to="/404"/>
                 </Route>
 
             </Switch>

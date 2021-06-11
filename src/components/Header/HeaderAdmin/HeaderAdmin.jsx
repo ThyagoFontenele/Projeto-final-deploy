@@ -17,14 +17,14 @@ function HeaderAdmin() {
     }
     return (
         <div>
-            <div id="header-user-logged">
+            <div id="header-admin">
                 <Link to="/user-page" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
                 <div>
                     <Link><p id="lista-usuarios-link">Lista de Usuários</p></Link>
                     <Link><p id="admissao-link">Admissão de Entregadores</p></Link>
                     <Link><p id="cadastrar-dono-link">Cadastrar dono de restaurante</p></Link>
                 </div>
-                <img src={IconUser} alt="user img" className="img-user" onClick={toggleButtonMenu} />
+                <img src={IconUser} alt="user img" className="user-admin" onClick={toggleButtonMenu} />
                 <MenuUser trigger={buttonMenu}/>
             </div>
             

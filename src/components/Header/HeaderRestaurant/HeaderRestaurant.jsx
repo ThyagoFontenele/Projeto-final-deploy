@@ -19,13 +19,13 @@ function HeaderRestaurant() {
         <div>
             <div id="header-user-logged">
                 <Link to="/user-page" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
-                <div>
+                <div id="container-restaurant-links">
                     <Link><p id="gestao-restaurante-link">Gestão de Restaurante</p></Link>
                     <Link><p id="gestao-estoque-link">Gestão de Estoque</p></Link>
                     <Link><p id="resultados-link">Resultados</p></Link>
                     <Link><p id="pedidos-link">Pedidos</p></Link>
                 </div>
-                <img src={IconUser} alt="user img" className="img-user" onClick={toggleButtonMenu} />
+                <img src={IconUser} alt="user img" className="user-restaurant" onClick={toggleButtonMenu} />
                 <MenuUser trigger={buttonMenu}/>
             </div>
             
