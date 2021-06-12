@@ -60,7 +60,7 @@ function routes() {
 
                 <Route exact path="/user/edit"> <EditInfoUser/>     </Route>
 
-                <Route exact path="user/wallet"><WalletUser/>       </Route>
+                <Route exact path="/user/wallet"><WalletUser/>       </Route>
 
                 {/*           ACESSO ENTREGADOR          */}
 

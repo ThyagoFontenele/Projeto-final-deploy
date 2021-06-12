@@ -1,0 +1,22 @@
+.wallet-user {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.wallet-user div {
+    margin-bottom: 100px;
+}
+
+.wallet-user div p {
+    text-align: center;
+    font-size: 32px;
+    color: rgba(41, 171, 226, .7);
+}
+
+.wallet-user div h3 {
+    text-align: center;
+    font-size: 24px;
+    color: rgba(41, 171, 226, .7);
+}
