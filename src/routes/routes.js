@@ -1,39 +1,44 @@
 import React from 'react'
+/*          Acesso liberado                */
 import Home from '../pages/Home/Home'
-
-import NotFound from '../pages/NotFound/NotFound'
 import Login from '../pages/Login/Login'
 import Register from '../pages/Register/Register'
 import Forgot from '../pages/ForgotPassword/Forgot'
-import DeliveryAddVeiculo from '../pages/DeliverymanAddVehicle/DeliveryAddVeiculo'
 
+/*           ACESSO USUÁRIO               */
 import UserLogged from '../pages/UserLogged/UserLogged'
-
 import EditInfoUser from '../pages/EditInfo/EditInfoUser/EditInfoUser'
-import EditInfoRestaurant from '../pages/EditInfo/EditInfoRestaurant/EditInfoRestaurant'
-import EditInfoAdmin from '../pages/EditInfo/EditInfoAdmin/EditInfoAdmin'
+import WalletUser from '../pages/WalletUser/WalletUser'
+
+/*          ACESSO ENTREGADOR            */
+import DeliverymanPageDeliveryClicked from '../pages/DeliverymanPageDeliveryClicked/DeliverymanPageDeliveryClicked'
+import NotValidatedDeliveryman from '../pages/NotValidatedDeliveryman/NotValidatedDeliveryman'
+import DeliveryAddVeiculo from '../pages/DeliverymanAddVehicle/DeliveryAddVeiculo'
 import EditInfoDeliveryman from '../pages/EditInfo/EditInfoDeliveryman/EditInfoDeliveryman'
-
+import WalletDeliveryman from '../pages/WalletDeliveryman/WalletDeliveryman'
 import Deliveryman from '../pages/Deliveryman/Deliveryman'
-import WalletA from '../pages/WalletA/WalletA'
-import WalletB from '../pages/WalletB/WalletB'
 
+/*       ACESSO DONO DE RESTAURANTE     */
+import EditInfoRestaurant from '../pages/EditInfo/EditInfoRestaurant/EditInfoRestaurant'
+import StockManagement from '../pages/StockManagement/StockManagement'
+import Results from '../pages/Results/Results'
+import Orders from '../pages/Orders/Orders'
 import Restaurant from '../pages/Restaurant/Restaurant'
 import RestaurantManager from '../pages/RestaurantManager/RestaurantManager'
-
 import MenuManagement from '../pages/MenuManagement/MenuManagement'
-import NotValidatedDeliveryman from '../pages/NotValidatedDeliveryman/NotValidatedDeliveryman'
-import DeliverymanPageDeliveryClicked from '../pages/DeliverymanPageDeliveryClicked/DeliverymanPageDeliveryClicked'
 import CreateNewPlateDiolog from '../pages/CreateNewPlateDiolog/CreateNewPlateDiolog'
-import StockManagement from '../pages/StockManagement/StockManagement'
 
+
+/*            ACESSO  ADMIN            */
+import EditInfoAdmin from '../pages/EditInfo/EditInfoAdmin/EditInfoAdmin'
 import AdminRestaurantRegistration from '../pages/AdminPages/AdminRestaurantRegistration/AdminRestaurantRegistration'
 import AdminUsers from '../pages/AdminPages/AdminUsers/AdminUsers'
 import AdminDeliveryman from '../pages/AdminPages/AdminDeliveryman/AdminDelivarymen'
 
-import Results from '../pages/Results/Results'
-import Orders from '../pages/Orders/Orders'
+/*               ERROS                */
+import NotFound from '../pages/NotFound/NotFound'
 
+/*             ROUTES              */
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 function routes() {
     return (
@@ -55,7 +60,7 @@ function routes() {
 
                 <Route exact path="/user/edit"> <EditInfoUser/>     </Route>
 
-                <Route exact path="user/wallet"><WalletA/>       </Route>
+                <Route exact path="user/wallet"><WalletUser/>       </Route>
 
                 {/*           ACESSO ENTREGADOR          */}
 
@@ -63,7 +68,7 @@ function routes() {
                     
                 <Route exact path="/deliveryman-page"> <Deliveryman/>    </Route>
                     
-                <Route exact path="/deriveryman/wallet">  <WalletB/>           </Route>
+                <Route exact path="/deriveryman/wallet">  <WalletDeliveryman/>           </Route>
 
                 <Route exact path="/deliveryman/edit"> <EditInfoDeliveryman/></Route>
 
@@ -77,7 +82,7 @@ function routes() {
 
                 <Route exact path="/restaurant/manager">     <RestaurantManager/>   </Route>
                 
-                <Route exact path="/restaurant/manager/management"><MenuManagement/></Route>
+                <Route exact path="/restaurant/management"><MenuManagement/></Route>
 
                 <Route exact path="/restaurant/edit">   <EditInfoRestaurant/>       </Route>
 
