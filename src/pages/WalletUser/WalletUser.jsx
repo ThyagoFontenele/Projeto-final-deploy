@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../components/Header/HeaderUserLogged/HeaderUserLogged'
 import Footer from '../../components/Footer/Footer'
 
-function WalletA() {
+function WalletUser() {
     return (
         <div>
             <Header/>
@@ -23,4 +23,4 @@ function WalletA() {
     )
 }
 
-export default WalletA
+export default WalletUser

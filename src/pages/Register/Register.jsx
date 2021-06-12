@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom'
 //Import Components
 import Logo from '../../assets/images/comesebebeslogo.svg'
 import '../../components/Botao/Button.css'
+
+
 function Register() {
     return (
         <div>
-        
-        
             <div id="register-page">
                 <Link to="/" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
                 <div className="register">
@@ -59,7 +59,7 @@ function Register() {
                     <input type="password" className="input-cadastro-senha"/>
                     <input type="password" className="input-confirmar-senha" />
                     <br />
-                    <button id="botao-cadastrar">Cadastrar</button>
+                    <input type="submit" id="botao-cadastrar" value="Cadastrar"/>
                 </div>
         </div>
         </div>

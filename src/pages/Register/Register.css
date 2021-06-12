@@ -176,6 +176,9 @@
     min-width: 22%;
     min-height: 4.5%;
     background: #ff7e61;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
 }
 #botao-cadastrar:hover{
     background: #f76a4a;
