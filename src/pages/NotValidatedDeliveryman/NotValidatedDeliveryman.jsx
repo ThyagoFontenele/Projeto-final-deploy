@@ -15,7 +15,7 @@ function NotValidatedDeliveryman() {
                 </div>
                 <div>
                     <h1 className="user-h1">Entregas disponíveis</h1>
-                    <div className="cards-group-deliveryman opacity-70">
+                    <div className="cards-group-deliveryman opacity-50">
                         <Card className="card"/>
                         <Card className="card"/>
                         <Card className="card"/>
