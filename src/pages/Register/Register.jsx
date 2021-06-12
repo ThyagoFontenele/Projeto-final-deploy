@@ -12,7 +12,7 @@ function Register() {
         <div>
             <div id="register-page">
                 <Link to="/" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
-                <div className="register">
+                <form className="register">
                     <Link to="/"><img src={BackPoint} alt="seta-voltar"  className="back-point-register"/></Link>
                     <h1 id="cadastre-se">Cadastre-se</h1>
                     <br />
@@ -60,7 +60,7 @@ function Register() {
                     <input type="password" className="input-confirmar-senha" />
                     <br />
                     <input type="submit" id="botao-cadastrar" value="Cadastrar"/>
-                </div>
+                </form>
         </div>
         </div>
     )

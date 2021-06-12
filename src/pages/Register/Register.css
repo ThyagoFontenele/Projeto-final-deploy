@@ -26,6 +26,7 @@
     padding-left: 2rem;
     padding-right: 2rem;
     text-align: center;
+    border: 1px solid #FF7E61;
 }
 .back-point-register{
     display: flex;
