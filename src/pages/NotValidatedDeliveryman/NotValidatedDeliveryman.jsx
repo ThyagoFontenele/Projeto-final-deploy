@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../../components/Header/HeaderUserOnly/HeaderUserOnly'
+import Card from '../../components/Cards/CardRestauranteEntrega/CardRestauranteEntrega'
 import Footer from '../../components/Footer/Footer'
+import './NotValidatedDeliveryman.css'
 
 function NotValidatedDeliveryman() {
     return (
@@ -8,7 +10,18 @@ function NotValidatedDeliveryman() {
             <Header/>
 
             <main>
-                <h1 className="user-h1">Entregas disponíveis</h1>
+                <div className="not-validated-message">
+                    Você ainda não foi validado!
+                </div>
+                <div>
+                    <h1 className="user-h1">Entregas disponíveis</h1>
+                    <div className="cards-group-deliveryman opacity-70">
+                        <Card className="card"/>
+                        <Card className="card"/>
+                        <Card className="card"/>
+                        <Card className="card"/>
+                    </div>
+                </div>
             </main>
 
             <footer>

@@ -1,0 +1,11 @@
+.not-validated-message {
+    height: 36px;
+    background-color: #FF7E61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opacity-70 {
+    opacity: .6;
+}
