@@ -25,7 +25,7 @@ function Deliveryman() {
                 </div>
                
             </main>
-            <Footer/>   
+            <Footer/>
         </div>
     )
 }

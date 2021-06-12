@@ -1,67 +1,60 @@
 import React from 'react'
-import './EditInfoUser.css'
+import './EditInfo.css'
 import Header from '../../../components/Header/HeaderUserLogged/HeaderUserLogged'
+import Footer from '../../../components/Footer/Footer'
 import ArrowBefore from '../../../assets/images/before-point.svg'
 import { Link } from 'react-router-dom'
-import Footer from '../../../components/Footer/Footer'
+
 
 function EditInfoUser() {
     return (
-        <div>
+        <>
             <Header/>
-
             <main>
-                <div>
                     <div>
-                        <Link className="arrow-home" to="/register"><img src={ArrowBefore} alt="arrow next"/></Link>
-                    </div>
-
-                    <div>
+                    <Link className="back-edit-user" to="/user-page"><img src={ArrowBefore} alt="arrow next"/></Link>
                         <h2 className="user-h1">Editar Dados</h2>
-                        <div id="barra-style"></div>
+                        <div className="barra-style"></div>
                     </div>
-                </div>
+               
 
                 <div>
-                    <form action="">
-                        <label htmlFor="">Nome</label><br />
-                        <input type="text" /><br />
-
+                    <form className="container-edit">
+                        <label id="labels">Nome</label><br />
+                        <input type="text" className="edit-user-input-nome" id="inputs"/><br />
                         <br />
-
-                        <label htmlFor="">Email</label><br />
-                        <input type="text" /><br />
-
-                        <label htmlFor="">CPF</label><br />
-                        <p>111.111.111.-11</p><br />
-
+                        <label id="labels">E-mail</label><br />
+                        <input type="mail" className="edit-user-input-email" id="inputs"/><br />
                         <br />
-
-                        <label htmlFor="">Data de nascimento</label><br />
-                        <input type="text" /><br />
-
+                        <label id="labels">CPF</label>
                         <br />
-
-                        <label htmlFor="">Telefone</label><br />
-                        <input type="text" />
-
+                        <label  className="edit-user-cpf">111.111.111.-11</label>
                         <br />
-
-                        <label htmlFor="">Endereço</label><br />
-                        <input type="text" /><br />
+                    
+                        <label id="labels">Data de Nascimento</label>
+                        <label id="labels" className="edit-label-telefone">Telefone</label>
+                        <br />
+                        <label className="edit-user-date">11/11/1111</label><input type="text" className="edit-user-input-telefone" id="inputs" />
+                        <br />
+                        <label id="labels">CEP</label><label id="labels" className="edit-label-complemento">Complemento</label>
+                        <br />
+                        <input type="text" className="edit-user-input-cep" id="inputs"/>
+                        <input type="text" className="edit-user-input-complemento" id="inputs"/>
+                        <br />
+                        <label id="labels">Número</label>
+                        <label id="labels" className="edit-label-rua">Rua</label>
+                        <br />
+                        <input type="text" className="edit-user-input-numero" id="inputs"/>
+                        <input type="text" className="edit-user-input-rua" id="inputs"/>
+                        <br />
+                        <button className="edit-user-excluir">Excluir Perfil</button>
+                        <button className="edit-user-edit">Editar</button>
                         
-                        <div>
-                            <button>Excluir Perfil</button>
-                            <button>Editar</button>
-                        </div>
                     </form>
                 </div>
             </main>
-
-            <footer>
-                <Footer/>
-            </footer>
-        </div>
+            <Footer/>
+        </>
     )
 }
 

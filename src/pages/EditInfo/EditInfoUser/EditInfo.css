@@ -1,0 +1,92 @@
+.container-edit{
+    position: absolute;
+    background: #F5C661;
+    border: 1px solid #FF7E61;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    left: 50%;
+    transform: translate(-50%,2%);
+    top: 30%;
+}
+
+#labels{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.edit-label-complemento{
+    margin-left: 23%;
+}
+.edit-label-rua{
+    margin-left: 13%;
+}
+.edit-label-telefone{
+    margin-left: 20.5%;
+}
+#inputs{
+    height: 32.06px;
+    background: #FAFAFA;
+    border: 1px solid #FF7E61;
+    box-sizing: border-box;
+}
+.back-edit-user{
+    position: absolute;
+    left: 20%;
+}
+.edit-user-input-nome{
+    width: 100%;
+}
+.edit-user-input-email{
+    width: 100%;
+}
+.edit-user-cpf{
+    display: flex;
+    margin-top: 2%;
+}
+.edit-user-date{
+    display: flex;
+    margin-top: 2%;
+}
+.edit-user-input-telefone{
+    display: flex;
+    margin-top: -7%;
+    width: 30%;
+    margin-left: 70%;
+}
+.edit-user-input-cep{
+    display: inline;
+    width: 28%;
+    margin-right: 5%
+}
+.edit-user-input-complemento{
+    display: inline;
+    width: 67%;
+    margin-bottom: 3%;
+}
+.edit-user-input-numero{
+    display: inline;
+    width: 28%;
+    margin-right: 5%;
+    margin-top: 0%;
+}
+.edit-user-input-rua{
+    display: inline;
+    width: 67%;
+    
+}
+.edit-user-excluir{
+    display: inline;
+    margin-right: 10%;
+    margin-left: 13%;
+    margin-top: 15%;
+    line-height: 35px;
+}
+.edit-user-edit{
+    line-height: 35px;
+}

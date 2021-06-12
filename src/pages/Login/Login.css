@@ -33,6 +33,7 @@
     padding-left: 4rem;
     padding-right: 4rem;
     text-align: center;
+    border: 1px solid #FF7E61;
 }
 input{
     outline: none;

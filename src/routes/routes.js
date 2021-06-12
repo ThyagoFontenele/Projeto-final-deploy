@@ -44,7 +44,7 @@ function routes() {
     return (
         <Router>
             <Switch>
-                {/*      Acesso liberado            */}
+                {/*      ACESSO LIBERADO                      */}
 
                 <Route exact path="/">              <Home/>         </Route>
 
@@ -54,7 +54,7 @@ function routes() {
                 
                 <Route exact path="/login/forgot-password"><Forgot/></Route>
 
-                {/*           ACESSO USUÁRIO               */}
+                {/*           ACESSO USUÁRIO                         */}
 
                 <Route exact path="/user-page"><UserLogged/>        </Route>
 

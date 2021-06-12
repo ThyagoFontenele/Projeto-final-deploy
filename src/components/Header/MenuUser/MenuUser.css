@@ -3,10 +3,11 @@
     width: 7%;
     height: 15%;
     left: 75%;
-    top: 6.7%;
+    top: 5%;
     background-color: #F5C661;
     border: 1px solid #FF7E61;
     padding: 2rem;
+    transform: translate(-00%,8%);
     font-family: 'Roboto', sans-serif;
     
 }
