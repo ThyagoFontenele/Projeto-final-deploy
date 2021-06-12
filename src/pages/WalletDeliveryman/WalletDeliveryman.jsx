@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../components/Header/HeaderUserLogged/HeaderUserLogged'
 import Footer from '../../components/Footer/Footer'
 
-function WalletA() {
+function WalletDeliveryman() {
     return (
         <div>
             <header>
@@ -12,7 +12,7 @@ function WalletA() {
             <main>
                 <div>
                     <h1 className="user-h1">Saldo disponível:</h1>
-                    <p>R$ 80,00</p>
+                    <p>R$ 240,00</p>
                 </div>
 
                 <div>
@@ -25,4 +25,4 @@ function WalletA() {
     )
 }
 
-export default WalletA
+export default WalletDeliveryman

@@ -1,0 +1,78 @@
+#bag-container{
+    position: absolute;
+    top: 5.4%;
+    left: 80%;
+    width: 20%;
+    height: 90%;
+    background: #f5c661;
+    border: 1px solid #FF7E61;
+    font-family: 'Roboto', sans-serif;
+    transform: translate( 0%,1.5%);
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.carrinho-text{
+    display: flex;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+}
+.limpar-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+    margin-left: 59%;
+    margin-top: 4%;
+}
+.barra-carrinho{
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+    height: 0px;
+    left: 70%;
+    top: 865px;
+    border: 1px solid #000000;
+}
+.total-carrinho-text{
+   
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 5%;
+    color: #000000;
+
+}
+
+.total-carrinho{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 69%;
+    margin-top: -8.5%;
+    color: #000000;
+
+}
+.carrinho-button{
+    width: 30%;
+    line-height: 2.3rem;
+    margin-left: 70%;
+    margin-top: 10%;
+    opacity: 0.6;
+}
+#empty{
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}

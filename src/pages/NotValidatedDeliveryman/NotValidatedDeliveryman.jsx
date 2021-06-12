@@ -1,21 +1,16 @@
 import React from 'react'
+import Header from '../../components/Header/HeaderUserOnly/HeaderUserOnly'
 import Footer from '../../components/Footer/Footer'
 
-function MenuManagement() {
+function NotValidatedDeliveryman() {
     return (
         <div>
             <header>
-
+                <Header/>
             </header>
 
             <main>
-                <div>
-                    <h1 className="user-h1">Gestão de Restaurante</h1>
-                </div>
-
-                <div>
-
-                </div>
+                <h1 className="user-h1">Entregas disponíveis</h1>
             </main>
 
             <footer>
@@ -25,4 +20,4 @@ function MenuManagement() {
     )
 }
 
-export default MenuManagement
+export default NotValidatedDeliveryman

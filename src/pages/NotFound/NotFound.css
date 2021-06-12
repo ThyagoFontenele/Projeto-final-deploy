@@ -1,0 +1,45 @@
+#container-body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #F5C661;
+
+}
+.header-notfound{
+    display: flex;
+    width: 100%;
+    height: 63px;
+    left: 0px;
+    top: 0px;
+    background: #7a247d;
+}
+.container-erro{
+    display: inline;
+    margin-top: 20%;;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 75px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+#erro-notfound-text{
+    margin-top: 10%;
+    font-size: 150px;
+    margin-bottom: 5%;
+}
+#notfound-text{
+    font-size: 30px;
+}
+#button-notfound{
+    display: flex;
+    margin-top: 4%;
+    font-size: 50px;
+    line-height: 120%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 46%;
+    border-radius: 1rem;
+}

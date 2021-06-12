@@ -9,7 +9,7 @@ function Login() {
             
             <div className="fundo-escuro"> 
                 <Link to="/" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
-                <div className="login">
+                <form className="login">
                     
                     <Link to="/"><img src={BackPoint} alt="seta-voltar"  className="back-point"/></Link>
                     <h1 className="realize-text">Realize seu login</h1>
@@ -23,7 +23,7 @@ function Login() {
                     <button className="botao-entrar">Entrar</button>
                     <br />
                     <Link to="/login/forgot-password"><p className="esqueci-senha">Esqueci minha senha</p></Link>
-                </div>
+                </form>
             </div>
            
         </>

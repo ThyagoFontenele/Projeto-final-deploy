@@ -1,0 +1,38 @@
+#container-restaurant-links{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+#gestao-restaurante-link{
+    margin-left: 60%;
+    margin-top: 15%;
+    width: 100%;
+    color: #F5C661;
+  
+}
+#gestao-estoque-link{
+    margin-left: 200%;
+    margin-top: -11%;
+    width: 100%;
+    color: #F5C661;
+}
+#resultados-link{
+    margin-left: 320%;
+    margin-top: -12%;
+    width: 100%;
+    color: #F5C661;
+}
+#pedidos-link{
+    margin-left: 420%;
+    margin-top: -11%;
+    width: 100%;
+    color: #F5C661;
+}
+.user-restaurant{
+    margin-left: 52%;
+    cursor: pointer;
+}
