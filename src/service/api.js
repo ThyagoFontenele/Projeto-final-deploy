@@ -1,29 +1,30 @@
 import axios from 'axios'
-
 const create = axios.create({
-    baseURL: ''
+    baseURL: 'https://projeto-final-injunior.herokuapp.com/'
 })
 
-function createUser(user) {
-    create.post('/register', user)
+function createUser(user, adress) {
+    create.post('/adress/create', adress)
+    .then((res) => console.log(res))
+    .catch((err) => console.error(err))
+    
+    create.post('/auth/signup', user)
     .then((res) => {
         console.log(res)
+        alert('Usuário criado com sucesso')
     })
-    .catch((err) => console.error(err))
-}
-
-let user = {
-    "user":{
-
-    }
+    .catch((err) => {console.error(err)
+        alert("Houve um erro :/");
+    })
+   
 }
 
 function handleLogin(user){
-    create.post('/login', user)
+    create.post('/auth/login', user)
     .then((res) => console.log(res.data))
-    .catch((err) => console.error(err))
+    .catch((err) => {console.error(err)
+        alert("Houve um erro :/");  
+    })
 }
-
-handleLogin()
 
 export { createUser, handleLogin }

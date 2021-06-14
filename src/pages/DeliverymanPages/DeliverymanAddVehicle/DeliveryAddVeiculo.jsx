@@ -21,7 +21,7 @@ function DeliveryAddVeiculo() {
                         <br />
                         <input type="text"  id="input-verificacao"/>
                         <br />
-                        <button className="botoes-verificacao">Enviar</button>
+                        <Link to="/login"><button className="botoes-verificacao">Enviar</button></Link>
                 </div>
             </div>
         </>

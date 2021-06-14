@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import Logo from '../../assets/images/comesebebeslogo.svg'
 import '../../components/Botao/Button.css'
 import { createUser } from '../../service/api'
+import Input from '../../components/Input/Input'
 
 
 function Register() {
@@ -21,12 +22,29 @@ function Register() {
     const [RoadNumber, setRoadNumber] = useState("");
     const [Password, setPassword] = useState("");
     const [ConfirmPassword, setConfirmPassword] = useState("");
-
+ 
 
     const user = {  "user": {
-
+        "name": name,
+        "email": email,
+        "birthdate": BirthDate,
+        "phone": PhoneNumber,
+        "cpf": cpf, 
+        "role": TypeUser,
+        "password": Password,
+        "password_confirmation": ConfirmPassword, 
+        "adress_id": 1
 
     }}
+    const adress = { "adress":{
+        "cep": cep,
+        "street": "Rua dos bobos",
+        "district":"RJ",
+        "city": "niterói",
+        "number": RoadNumber,
+        "complement": Complemento
+    }}
+    
 
     return (
         <div>
@@ -38,46 +56,46 @@ function Register() {
                     <br />
                     <label className="labels">Nome</label>
                     <br />
-                    <input type="text" className="input-nome" id="input" value={name} onChange={(e) => setName(e.target.value)}/>
+                    <Input type="text" name="input-nome" id="input" value={name} onChangeValue={setName}/>
                     <br />
                     <label className="labels">E-mail</label>
                     <br />
-                    <input type="email" className="input-mail" id="input" />
+                    <Input type="email" name="input-mail" id="input" value={email} onChangeValue={setEmail}/>
                     <br />
                     <label className="labels">CPF</label>
                     <br />
-                    <input type="text" className="input-cpf" id="input" />
+                    <Input type="text" name="input-cpf" id="input" value={cpf} onChangeValue={setCPF}/>
                     <br />
                     <label className="labels-2">Data de nascimento</label><label id="telefone">Telefone</label>
                     <br />
-                    <input type="date" className="input-data" />
-                    <input type="text" className="input-telefone"  />
+                    <Input type="date" name="input-data" value={BirthDate} onChangeValue={setBithDate}/>
+                    <Input type="text" name="input-telefone"  value={PhoneNumber} onChangeValue={setPhoneNumber}/>
                     <br />
                     <label className="label-usuario">Tipo de Usuário</label>
                     <br />
                     <select id="user-type">
                         <option></option>
-                        <option>Cliente</option>
-                        <option>Entregador</option>
+                        <option value={2} onChangeValue={setTypeUser}>Usuário</option>
+                        <option value={3} onChangeValue={setName}>Entregador</option>
                     </select>
                     <label  className="labels-2">CEP</label>
                     <label className="label-complemento">Complemento</label>
                     <br />
-                    <input type="text"  className="input-cep"/>
-                    <input type="text" className="input-complemento"/>
+                    <Input type="text"  name="input-cep" value={cep} onChangeValue={setCep}/>
+                    <Input type="text" name="input-complemento" value={Complemento} onChangeValue={SetComplemento}/>
                     <br />
                     <label className="labels">Número</label>
                     <label className="label-rua">Rua</label>
                     <br />
-                    <input type="text" className="input-rua"/>
-                    <input type="text"className="input-numero" />
+                    <Input type="text" name="input-rua" />
+                    <Input type="text" name="input-numero" />
                     <br />
                     <label className="labels">Senha</label><label className="labels-confirmar-senha">Confirmar Senha</label>
                     <br />
-                    <input type="password" className="input-cadastro-senha"/>
-                    <input type="password" className="input-confirmar-senha" />
+                    <Input type="password" name="input-cadastro-senha" value={Password} onChangeValue={setPassword}/>
+                    <Input type="password" name="input-confirmar-senha" value={ConfirmPassword} onChangeValue={setConfirmPassword}/>
                     <br />
-                    <button id="botao-cadastrar" onClick={() => createUser(user)}>Cadastrar</button>
+                    <button id="botao-cadastrar" onClick={() => createUser(user, adress)}>Cadastrar</button>
                 </form>
         </div>
         </div>
