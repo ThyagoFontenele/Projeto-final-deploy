@@ -9,6 +9,7 @@ import Forgot from '../pages/ForgotPassword/Forgot'
 import UserLogged from '../pages/UserLogged/UserLogged'
 import EditInfoUser from '../pages/EditInfo/EditInfoUser/EditInfoUser'
 import WalletUser from '../pages/WalletUser/WalletUser'
+import Restaurant from '../pages/Restaurant/Restaurant'
 
 /*          ACESSO ENTREGADOR            */
 import DeliverymanPageDeliveryClicked from '../pages/DeliverymanPageDeliveryClicked/DeliverymanPageDeliveryClicked'
@@ -23,7 +24,7 @@ import EditInfoRestaurant from '../pages/EditInfo/EditInfoRestaurant/EditInfoRes
 import StockManagement from '../pages/StockManagement/StockManagement'
 import Results from '../pages/Results/Results'
 import Orders from '../pages/Orders/Orders'
-import Restaurant from '../pages/Restaurant/Restaurant'
+
 import RestaurantManager from '../pages/RestaurantManager/RestaurantManager'
 import MenuManagement from '../pages/MenuManagement/MenuManagement'
 import CreateNewPlateDiolog from '../pages/CreateNewPlateDiolog/CreateNewPlateDiolog'
@@ -61,24 +62,25 @@ function routes() {
                 <Route exact path="/user/edit"> <EditInfoUser/>     </Route>
 
                 <Route exact path="/user/wallet"><WalletUser/>       </Route>
+                <Route exact path="/restaurants">  <Restaurant/> </Route>
 
                 {/*           ACESSO ENTREGADOR          */}
 
-                <Route exact path="/delivery-add-cnh"> <DeliveryAddVeiculo/></Route>
+                <Route exact path="/deliveryman/add-veiculo"> <DeliveryAddVeiculo/></Route>
                     
-                <Route exact path="/deliveryman-page"> <Deliveryman/>    </Route>
+                <Route exact path="/deliveryman/page"> <Deliveryman/>    </Route>
                     
-                <Route exact path="/deriveryman/wallet">  <WalletDeliveryman/>           </Route>
+                <Route exact path="/deliveryman/wallet">  <WalletDeliveryman/>           </Route>
 
                 <Route exact path="/deliveryman/edit"> <EditInfoDeliveryman/></Route>
 
                 <Route exact path="/deliveryman/not-validated"> <NotValidatedDeliveryman/> </Route>
 
-                <Route exact path="/deliveryman-page/delivery-clicked"><DeliverymanPageDeliveryClicked/> </Route>
+                <Route exact path="/deliveryman/delivery-clicked"><DeliverymanPageDeliveryClicked/> </Route>
 
                 {/*       ACESSO DONO DE RESTAURANTE          */}
 
-                <Route exact path="/restaurant">  <Restaurant/>
+                
 
                 <Route exact path="/restaurant/manager">     <RestaurantManager/>   </Route>
                 
@@ -92,7 +94,7 @@ function routes() {
 
                 <Route exact path="/restaurant/orders">  <Orders/>  </Route>
 
-                <Route exact path="/restaurant/stock-management"><StockManagement/></Route>
+                <Route exact path="/restaurant/stock"><StockManagement/></Route>
                 
 
                 {/*         ACESSO  ADMIN                          */}
@@ -107,11 +109,11 @@ function routes() {
 
                 {/*          ERROS       */}
 
-                <Route exact path="/404">  <NotFound/>  </Route>
+                <Route exact path="/404"> <NotFound/>  </Route>
                 
-                <Route> <Redirect to="/404"/> </Route>
+                <Route path="/"> <Redirect to="/404"/> </Route>
 
-                </Route>
+                
             </Switch>
         </Router>
     )

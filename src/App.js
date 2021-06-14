@@ -1,5 +1,5 @@
 import Routes from './routes/routes'
-import './components/BarStyle/BarStyle.css'
+
 function App() {
   return (
 

@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../components/Header/HeaderUserLogged/HeaderUserLogged'
 import Footer from '../../components/Footer/Footer'
 import './WalletUser.css'
+import '../../components/BarStyle/BarStyle.css'
 
 function WalletUser() {
     return (

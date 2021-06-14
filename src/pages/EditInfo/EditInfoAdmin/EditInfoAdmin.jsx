@@ -4,7 +4,7 @@ import Header from '../../../components/Header/HeaderAdmin/HeaderAdmin'
 import Footer from '../../../components/Footer/Footer'
 import ArrowBefore from '../../../assets/images/before-point.svg'
 import { Link } from 'react-router-dom'
-
+import './EditInfoAdmin.css'
 
 function EditInfoAdmin() {
     return (
@@ -12,7 +12,7 @@ function EditInfoAdmin() {
             <Header/>
             <main>
                     <div>
-                    <Link className="back-edit-user" to="/user-page"><img src={ArrowBefore} alt="arrow next"/></Link>
+                        <Link className="back-edit-user" to="/user-page"><img src={ArrowBefore} alt="arrow next"/></Link>
                         <h2 className="user-h1">Editar Dados</h2>
                         <div className="barra-style"></div>
                     </div>
@@ -47,7 +47,7 @@ function EditInfoAdmin() {
                         <input type="text" className="edit-user-input-numero" id="inputs"/>
                         <input type="text" className="edit-user-input-rua" id="inputs"/>
                         <br />
-                        <button className="edit-user-edit">Editar</button>
+                        <button className="edit-user-edit" id="botao-editar-admin">Editar</button>
                         
                     </form>
                 </div>

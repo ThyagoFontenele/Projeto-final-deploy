@@ -7,7 +7,7 @@ import Carrinho from '../../../assets/images/carrinho.svg'
 import IconUser from '../../../assets/images/user-icon.svg'
 import Logo from '../../../assets/images/comesebebeslogo.svg'
 import MenuUser from '../MenuUser/MenuUser'
-import MenuBag from '../MenuBag/MenuBag'
+import MenuBag from '../MenuUserBag/MenuBag'
 
 
 
