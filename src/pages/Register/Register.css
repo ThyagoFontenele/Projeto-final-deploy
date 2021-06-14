@@ -51,15 +51,15 @@
     border: 1px solid #FF7E61;
 }
 .input-cadastro-senha{
-    width: 32.5%;
-    height: 4%;
+    width: 27%;
+    height: 3.9%;
     margin-left: 0%;
     border: 1px solid #FF7E61;
     
 }
 
 .input-confirmar-senha{
-    width: 32.5%;
+    width: 38%;
     height: 4%;
     margin-left: 3%;
     border: 1px solid #FF7E61;
@@ -120,7 +120,7 @@
 }
 .labels-confirmar-senha{
     font-size: 90%;
-    margin-left: 25%; 
+    margin-left: 11%; 
 }
 .label-usuario{
     display: flex;

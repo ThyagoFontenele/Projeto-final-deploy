@@ -1,13 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Register.css'
 import BackPoint from '../../assets/images/back-point.svg'
 import { Link } from 'react-router-dom'
 //Import Components
 import Logo from '../../assets/images/comesebebeslogo.svg'
 import '../../components/Botao/Button.css'
+import { createUser } from '../../service/api'
 
 
 function Register() {
+
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [cpf, setCPF] = useState("");
+    const [BirthDate, setBithDate] = useState("");
+    const [PhoneNumber, setPhoneNumber] = useState("");
+    const [TypeUser, setTypeUser] = useState("");
+    const [cep, setCep] = useState("");
+    const [Complemento, SetComplemento] = useState("");
+    const [RoadNumber, setRoadNumber] = useState("");
+    const [Password, setPassword] = useState("");
+    const [ConfirmPassword, setConfirmPassword] = useState("");
+
+
+    const user = {  "user": {
+
+
+    }}
+
     return (
         <div>
             <div id="register-page">
@@ -17,10 +37,8 @@ function Register() {
                     <h1 id="cadastre-se">Cadastre-se</h1>
                     <br />
                     <label className="labels">Nome</label>
-                    <label className="label-sobrenome">Sobrenome</label>
                     <br />
-                    <input type="text" className="input-nome"/>
-                    <input type="text" className="input-sobrenome" />
+                    <input type="text" className="input-nome" id="input" value={name} onChange={(e) => setName(e.target.value)}/>
                     <br />
                     <label className="labels">E-mail</label>
                     <br />
@@ -54,12 +72,12 @@ function Register() {
                     <input type="text" className="input-rua"/>
                     <input type="text"className="input-numero" />
                     <br />
-                    <label className="labels">Senha</label><label className="labels-confirmar-senha">Confirmação Senha</label>
+                    <label className="labels">Senha</label><label className="labels-confirmar-senha">Confirmar Senha</label>
                     <br />
                     <input type="password" className="input-cadastro-senha"/>
                     <input type="password" className="input-confirmar-senha" />
                     <br />
-                    <input type="submit" id="botao-cadastrar" value="Cadastrar"/>
+                    <button id="botao-cadastrar" onClick={() => createUser(user)}>Cadastrar</button>
                 </form>
         </div>
         </div>
