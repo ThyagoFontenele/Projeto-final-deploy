@@ -1,9 +1,9 @@
 import React from 'react'
 import './Deliveryman.css'
 //Import Components
-import Header from '../../components/Header/HeaderRestaurant/HeaderRestaurant'
-import Card from '../../components/Cards/CardRestauranteEntrega/CardRestauranteEntrega'
-import Footer from '../../components/Footer/Footer'
+import Header from '../../../components/Header/HeaderRestaurant/HeaderRestaurant'
+import Card from '../../../components/Cards/CardRestauranteEntrega/CardRestauranteEntrega'
+import Footer from '../../../components/Footer/Footer'
 
 
 function Deliveryman() {

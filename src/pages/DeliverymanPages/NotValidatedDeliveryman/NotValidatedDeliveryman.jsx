@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../../components/Header/HeaderDeliveryman/HeaderDeliveryman'
-import Card from '../../components/Cards/CardRestauranteEntrega/CardRestauranteEntrega'
-import Footer from '../../components/Footer/Footer'
+import Header from '../../../components/Header/HeaderDeliveryman/HeaderDeliveryman'
+import Card from '../../../components/Cards/CardRestauranteEntrega/CardRestauranteEntrega'
+import Footer from '../../../components/Footer/Footer'
 import './NotValidatedDeliveryman.css'
 
 function NotValidatedDeliveryman() {

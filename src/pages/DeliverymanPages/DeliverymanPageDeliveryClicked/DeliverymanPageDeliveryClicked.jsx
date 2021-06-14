@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../../components/Header/HeaderDeliveryman/HeaderDeliveryman'
-import Footer from '../../components/Footer/Footer'
+import Header from '../../../components/Header/HeaderDeliveryman/HeaderDeliveryman'
+import Footer from '../../../components/Footer/Footer'
 
 function DeliverymanPageDeliveryClicked() {
     return (

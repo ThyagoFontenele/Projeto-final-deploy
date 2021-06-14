@@ -6,28 +6,28 @@ import Register from '../pages/Register/Register'
 import Forgot from '../pages/ForgotPassword/Forgot'
 
 /*           ACESSO USUÁRIO               */
-import UserLogged from '../pages/UserLogged/UserLogged'
+import UserLogged from '../pages/UserPages/UserLogged/UserLogged'
 import EditInfoUser from '../pages/EditInfo/EditInfoUser/EditInfoUser'
-import WalletUser from '../pages/WalletUser/WalletUser'
-import Restaurant from '../pages/Restaurant/Restaurant'
+import WalletUser from '../pages/UserPages/WalletUser/WalletUser'
+import Restaurant from '../pages/UserPages/Restaurant/Restaurant'
 
 /*          ACESSO ENTREGADOR            */
-import DeliverymanPageDeliveryClicked from '../pages/DeliverymanPageDeliveryClicked/DeliverymanPageDeliveryClicked'
-import NotValidatedDeliveryman from '../pages/NotValidatedDeliveryman/NotValidatedDeliveryman'
-import DeliveryAddVeiculo from '../pages/DeliverymanAddVehicle/DeliveryAddVeiculo'
+import DeliverymanPageDeliveryClicked from '../pages/DeliverymanPages/DeliverymanPageDeliveryClicked/DeliverymanPageDeliveryClicked'
+import NotValidatedDeliveryman from '../pages/DeliverymanPages/NotValidatedDeliveryman/NotValidatedDeliveryman'
+import DeliveryAddVeiculo from '../pages/DeliverymanPages/DeliverymanAddVehicle/DeliveryAddVeiculo'
 import EditInfoDeliveryman from '../pages/EditInfo/EditInfoDeliveryman/EditInfoDeliveryman'
-import WalletDeliveryman from '../pages/WalletDeliveryman/WalletDeliveryman'
-import Deliveryman from '../pages/Deliveryman/Deliveryman'
+import WalletDeliveryman from '../pages/DeliverymanPages/WalletDeliveryman/WalletDeliveryman'
+import Deliveryman from '../pages/DeliverymanPages/Deliveryman/Deliveryman'
 
 /*       ACESSO DONO DE RESTAURANTE     */
 import EditInfoRestaurant from '../pages/EditInfo/EditInfoRestaurant/EditInfoRestaurant'
-import StockManagement from '../pages/StockManagement/StockManagement'
-import Results from '../pages/Results/Results'
-import Orders from '../pages/Orders/Orders'
+import StockManagement from '../pages/RestaurantOwner/StockManagement/StockManagement'
+import Results from '../pages/RestaurantOwner/Results/Results'
+import Orders from '../pages/RestaurantOwner/Orders/Orders'
 
-import RestaurantManager from '../pages/RestaurantManager/RestaurantManager'
-import MenuManagement from '../pages/MenuManagement/MenuManagement'
-import CreateNewPlateDiolog from '../pages/CreateNewPlateDiolog/CreateNewPlateDiolog'
+import RestaurantManager from '../pages/RestaurantOwner/RestaurantManager/RestaurantManager'
+import MenuManagement from '../pages/RestaurantOwner/MenuManagement/MenuManagement'
+import CreateNewPlateDiolog from '../pages/RestaurantOwner/CreateNewPlateDiolog/CreateNewPlateDiolog'
 
 
 /*            ACESSO  ADMIN            */

@@ -1,23 +1,22 @@
 import React from 'react'
-import Header from '../../components/Header/HeaderUserLogged/HeaderUserLogged'
-import Footer from '../../components/Footer/Footer'
-import Voltar from '../../assets/images/before-point.svg'
-import './WalletDeliveryman.css'
+import Header from '../../../components/Header/HeaderUserLogged/HeaderUserLogged'
+import Footer from '../../../components/Footer/Footer'
+import './WalletUser.css'
+import '../../../components/BarStyle/BarStyle.css'
 
-function WalletDeliveryman() {
+function WalletUser() {
     return (
         <div>
             <Header/>
 
-            <main className="wallet-deliveryman">
+            <main className="wallet-user">
                 <div>
-                    <img src={Voltar} alt="" />
                     <h1 className="user-h1">Saldo disponível:</h1>
-                    <p>R$ 240,00</p>
+                    <p>R$ 80,00</p>
                 </div>
 
                 <div>
-                    <h3>Histórico de entregas</h3>
+                    <h3>Histórico de compras</h3>
                     <div>
                         {/* 
                         - card
@@ -35,4 +34,4 @@ function WalletDeliveryman() {
     )
 }
 
-export default WalletDeliveryman
+export default WalletUser

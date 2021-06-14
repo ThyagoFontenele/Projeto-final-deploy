@@ -10,6 +10,7 @@ function AdminDeliverymen() {
             <main>
                 <div>
                     <h1 className="user-h1">Admissão de Entregadores</h1>
+                    <div className="barra-style"></div>
                 </div>
 
                 <div>

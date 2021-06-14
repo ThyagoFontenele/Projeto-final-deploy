@@ -10,6 +10,7 @@ function AdminRestaurantRegistration() {
             <main>
                 <div>
                     <h1 className="user-h1">Cadastro de Donos de Restaurantes</h1>
+                    <div className="barra-style"></div>
                 </div>
 
                 <div>

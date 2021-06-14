@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '../../components/Header/HeaderUserLogged/HeaderUserLogged'
-import Footer from '../../components/Footer/Footer'
+import Header from '../../../components/Header/HeaderUserLogged/HeaderUserLogged'
+import Footer from '../../../components/Footer/Footer'
 
 function Restaurant() {
     return (

@@ -22,7 +22,7 @@ function HeaderAdmin() {
                 <div>
                     <Link to="/admin/users"><p id="lista-usuarios-link">Lista de Usuários</p></Link>
                     <Link to="/admin/deliveryman"><p id="admissao-link">Admissão de Entregadores</p></Link>
-                    <Link to="/"><p id="cadastrar-dono-link">Cadastrar dono de restaurante</p></Link>
+                    <Link to="/admin/restaurant/register"><p id="cadastrar-dono-link">Cadastrar dono de restaurante</p></Link>
                 </div>
                 <img src={IconUser} alt="user img" className="user-admin" onClick={toggleButtonMenu} />
                 <MenuAdmin trigger={buttonMenu}/>
