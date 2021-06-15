@@ -4,6 +4,7 @@ import Home from '../pages/Home/Home'
 import Login from '../pages/Login/Login'
 import Register from '../pages/Register/Register'
 import Forgot from '../pages/ForgotPassword/Forgot'
+import Confirm from '../pages/Confirm/Confirm'
 
 /*           ACESSO USUÁRIO               */
 import UserLogged from '../pages/UserPages/UserLogged/UserLogged'
@@ -54,6 +55,8 @@ function routes() {
                 <Route exact path="/login">        <Login/>         </Route>
                 
                 <Route exact path="/login/forgot-password"><Forgot/></Route>
+                
+                <Route exact path="/confirm">   <Confirm/>     </Route>
 
                 {/*           ACESSO USUÁRIO                         */}
 

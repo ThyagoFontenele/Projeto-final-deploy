@@ -15,7 +15,18 @@ function createUser(user) {
     })
    
 }
-
+function Confirmar(key){
+    create.post('/auth/confirm/', key)
+    .then((res) => {console.log(res.data)
+        alert('Usuário confirmado')
+        window.location.href = '/login'
+    })
+    .catch((err) => {console.error(err)
+        alert('Erro ao confirmar')
+        
+    })
+    
+}
 function handleLogin(user){
     create.post('/auth/login/', user)
     .then((res) => console.log(res.data))
@@ -24,4 +35,4 @@ function handleLogin(user){
     })
 }
 
-export { createUser, handleLogin }
+export { createUser, Confirmar ,handleLogin }
