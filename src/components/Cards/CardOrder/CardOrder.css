@@ -1,0 +1,33 @@
+.card-order {
+    width: 856px;
+    height: 64px;
+    margin: 0 auto;
+    background-color: #F5C661;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+
+.card-order-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-order-info-dish {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-order-info-status {
+    font-size: 16px;
+    opacity: .7;
+}
+
+.card-order-done {
+    font-size: 16px;
+    font-weight: bold;
+}
