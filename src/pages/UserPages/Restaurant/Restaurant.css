@@ -1,0 +1,71 @@
+.main-restaurant {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.restaurant-header {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #29ABE2;
+}
+
+.restaurant-info-description-h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.restaurant-info-description-h2 {
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.restaurant-info-owner {
+    font-size: 16px;
+    color: rgba(41, 171, 226, .7);
+}
+
+.restaurant-info-owner-p {
+    padding-bottom: 5px;
+}
+
+.restaurant-logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 65px;
+    background-color: #F5C661;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restaurant-search-box {
+    width: 420px;
+    height: 20px;
+    border: 1px solid rgba(41, 171, 226, .7);
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurant-search-box:hover {
+    border: 1px solid rgba(41, 171, 226, 1);
+}
+
+#restaurant-search-box-img {
+    width: 20px;
+    padding: 5px;
+}
+
+#restaurant-search-box-input {
+    border: none;
+    width: 100%;
+    height: 90%;
+    padding: 5px;
+    font-size: 16px;
+}
