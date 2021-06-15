@@ -32,28 +32,27 @@ function Register() {
         }
     }
     
+    const user = {
+        "adress": {
+            "cep": cep,
+            "street": rua,
+            "district":"RJ",
+            "city": "niterói",
+            "number": RoadNumber,
+            "complement": Complemento
+        },
+        "user":{
+            "name": name,
+            "email": email,
+            "birthdate": BirthDate,
+            "phone": PhoneNumber,
+            "cpf": cpf, 
+            "role": UserType,
+            "password": Password,
+            "password_confirmation": ConfirmPassword
+        }
+    }
 
-    const user = {  "user": {
-        "name": name,
-        "email": email,
-        "birthdate": BirthDate,
-        "phone": PhoneNumber,
-        "cpf": cpf, 
-        "role": UserType,
-        "password": Password,
-        "password_confirmation": ConfirmPassword, 
-        "adress_id": "2"
-
-    }}
-    const adress = { "adress":{
-        "cep": cep,
-        "street": rua,
-        "district":"RJ",
-        "city": "niterói",
-        "number": RoadNumber,
-        "complement": Complemento
-    }}
-    
 
     return (
         <>
@@ -103,7 +102,7 @@ function Register() {
                     <Input type="password" name="input-cadastro-senha" value={Password} onChangeValue={setPassword}/>
                     <Input type="password" name="input-confirmar-senha" value={ConfirmPassword} onChangeValue={setConfirmPassword}/>
                     <br />
-                    <button id="botao-cadastrar" onClick={() => createUser(user, adress)}>Cadastrar</button>
+                    <button id="botao-cadastrar" onClick={() => createUser(user)}>Cadastrar</button>
                 </div>
             </div>
         </>
