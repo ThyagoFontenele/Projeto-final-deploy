@@ -4,15 +4,13 @@ const create = axios.create({
     baseURL: 'https://projeto-final-injunior.herokuapp.com/'
 })
 
-function createAdress(adress){
-    create.post('/adress/create', adress)
-    .then((res) => {console.log(res)
-        let idAdress = res.data.id;
-    })
-    .catch((err) => console.error(err))
-}
-function createUser(user, adress) {
-    createAdress(adress);
+// function createAdress(adress){
+//     create.post('/adress/create', adress)
+//     .then((res) => console.log(res))
+//     .catch((err) => console.error(err))
+// }
+function createUser(user) {
+
     create.post('/auth/signup/', user)
     .then((res) => {
         console.log(res)
