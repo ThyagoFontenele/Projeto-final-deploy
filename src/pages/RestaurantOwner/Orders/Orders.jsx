@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../../../components/Header/HeaderRestaurant/HeaderRestaurant'
 import Footer from '../../../components/Footer/Footer'
+import CardOrder from '../../../components/Cards/CardOrder/CardOrder'
+import './Orders.css'
 
 function Orders() {
     return (
@@ -13,8 +15,11 @@ function Orders() {
                     <div className="barra-style"></div>
                 </div>
 
-                <div>
-
+                <div className="orders-card-group">
+                    <CardOrder/>
+                    <CardOrder/>
+                    <CardOrder/>
+                    <CardOrder/>
                 </div>
             </main>
 
