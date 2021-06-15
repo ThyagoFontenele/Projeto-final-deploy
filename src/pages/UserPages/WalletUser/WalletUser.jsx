@@ -3,6 +3,7 @@ import Header from '../../../components/Header/HeaderUserLogged/HeaderUserLogged
 import Footer from '../../../components/Footer/Footer'
 import './WalletUser.css'
 import '../../../components/BarStyle/BarStyle.css'
+import CardFood from '../../../components/Cards/CardFood/CardFood'
 
 function WalletUser() {
     return (
@@ -10,21 +11,19 @@ function WalletUser() {
             <Header/>
 
             <main className="wallet-user">
-                <div>
+                <div className="wallet-user-title">
                     <h1 className="user-h1">Saldo disponível:</h1>
-                    <p>R$ 80,00</p>
+                    <p className="wallet-user-p">R$ 80,00</p>
                 </div>
 
                 <div>
                     <h3>Histórico de compras</h3>
-                    <div>
-                        {/* 
-                        - card
-                        - card
-                        - card
-                        - card
-                        - card
-                        */}
+                    <div className="user-cardfood-group">
+                        <CardFood/>
+                        <CardFood/>
+                        <CardFood/>
+                        <CardFood/>
+                        <CardFood/>
                     </div>
                 </div>
             </main>

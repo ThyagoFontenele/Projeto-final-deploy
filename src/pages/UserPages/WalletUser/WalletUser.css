@@ -5,11 +5,11 @@
     flex-direction: column;
 }
 
-.wallet-user div {
+.wallet-user-title {
     margin-bottom: 100px;
 }
 
-.wallet-user div p {
+.wallet-user-p {
     text-align: center;
     font-size: 32px;
     color: rgba(41, 171, 226, .7);
@@ -19,4 +19,13 @@
     text-align: center;
     font-size: 24px;
     color: rgba(41, 171, 226, .7);
+    margin-bottom: 25px;
+}
+
+.user-cardfood-group {
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

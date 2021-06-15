@@ -1,0 +1,26 @@
+.cardfood {
+    width: 856px;
+    height: 64px;
+    background-color: #F5C661;
+    margin: 0;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardfood h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cardfood-p-restaurant {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.cardfood-p-price {
+    font-size: 24px;
+    font-weight: bold;
+}
