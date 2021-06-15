@@ -22,8 +22,17 @@ function Register() {
     const [Password, setPassword] = useState("");
     const [ConfirmPassword, setConfirmPassword] = useState("");
     const [rua, setRua] = useState("");
+    const [UserType, setUsertype] = useState("2");
+    const toggle = () => {
+        if(UserType == "2"){
+            setUsertype("3")
+        }
+        else{
+            setUsertype("2")
+        }
+    }
+    
 
-    const UserType = document.getElementById("user-type");
     const user = {  "user": {
         "name": name,
         "email": email,
@@ -73,9 +82,9 @@ function Register() {
                     <br />
                     <label className="label-usuario">Tipo de Usuário</label>
                     <br />
-                    <select id="user-type">
-                        <option value="2">Usuário</option>
-                        <option value="3">Entregador</option>
+                    <select id="user-type" onChange={toggle} >
+                        <option>Usuário</option>
+                        <option>Entregador</option>
                     </select>
                     <label  className="labels-2">CEP</label>
                     <label className="label-complemento">Complemento</label>
