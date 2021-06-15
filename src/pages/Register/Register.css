@@ -43,12 +43,7 @@
     margin-left: 0%;
     border: 1px solid #ff7e61;
     margin-bottom: 1%;
-}
-.input-sobrenome{
-    width: 32%;
-    height: 3.5%;
-    margin-left: 3%;
-    border: 1px solid #FF7E61;
+    
 }
 .input-cadastro-senha{
     width: 27%;
@@ -64,14 +59,6 @@
     margin-left: 3%;
     border: 1px solid #FF7E61;
 }
-.input-endereco{
-    border: 1px solid #FF7E61;
-    display: flex;
-    width: 70%;
-    height: 4%;
-    margin-left: 15%;
-    margin-bottom: -2%;
-}
 .input-cep{
     border: 1px solid #FF7E61;
     width: 27%;
@@ -86,14 +73,14 @@
 }
 .input-rua{
     border: 1px solid #FF7E61;
-    width: 27%;
+    width: 38%;
     height: 3.9%;
-    margin-left: 0%;
+    margin-left: 3%;
 }
 .input-numero{
-    width: 38%;
+    width: 27%;
     height: 4%;
-    margin-left: 3%;
+    margin-left: 0%;
     border: 1px solid #FF7E61;
 }
 #input{

@@ -16,29 +16,29 @@ function Register() {
     const [cpf, setCPF] = useState("");
     const [BirthDate, setBithDate] = useState("");
     const [PhoneNumber, setPhoneNumber] = useState("");
-    const [TypeUser, setTypeUser] = useState("");
     const [cep, setCep] = useState("");
     const [Complemento, SetComplemento] = useState("");
     const [RoadNumber, setRoadNumber] = useState("");
     const [Password, setPassword] = useState("");
     const [ConfirmPassword, setConfirmPassword] = useState("");
- 
+    const [rua, setRua] = useState("");
 
+    const UserType = document.getElementById("user-type");
     const user = {  "user": {
         "name": name,
         "email": email,
         "birthdate": BirthDate,
         "phone": PhoneNumber,
         "cpf": cpf, 
-        "role": TypeUser,
+        "role": UserType,
         "password": Password,
         "password_confirmation": ConfirmPassword, 
-        "adress_id": 1
+        "adress_id": "2"
 
     }}
     const adress = { "adress":{
         "cep": cep,
-        "street": "Rua dos bobos",
+        "street": rua,
         "district":"RJ",
         "city": "niterói",
         "number": RoadNumber,
@@ -47,10 +47,10 @@ function Register() {
     
 
     return (
-        <div>
+        <>
             <div id="register-page">
                 <Link to="/" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
-                <form className="register">
+                <div className="register">
                     <Link to="/"><img src={BackPoint} alt="seta-voltar"  className="back-point-register"/></Link>
                     <h1 id="cadastre-se">Cadastre-se</h1>
                     <br />
@@ -74,9 +74,8 @@ function Register() {
                     <label className="label-usuario">Tipo de Usuário</label>
                     <br />
                     <select id="user-type">
-                        <option></option>
-                        <option value={2} onChangeValue={setTypeUser}>Usuário</option>
-                        <option value={3} onChangeValue={setName}>Entregador</option>
+                        <option value="2">Usuário</option>
+                        <option value="3">Entregador</option>
                     </select>
                     <label  className="labels-2">CEP</label>
                     <label className="label-complemento">Complemento</label>
@@ -87,8 +86,8 @@ function Register() {
                     <label className="labels">Número</label>
                     <label className="label-rua">Rua</label>
                     <br />
-                    <Input type="text" name="input-rua" />
-                    <Input type="text" name="input-numero" />
+                    <Input type="text" name="input-numero" value={RoadNumber} onChangeValue={setRoadNumber} />
+                    <Input type="text" name="input-rua" value={rua} onChangeValue={setRua}/>
                     <br />
                     <label className="labels">Senha</label><label className="labels-confirmar-senha">Confirmar Senha</label>
                     <br />
@@ -96,9 +95,9 @@ function Register() {
                     <Input type="password" name="input-confirmar-senha" value={ConfirmPassword} onChangeValue={setConfirmPassword}/>
                     <br />
                     <button id="botao-cadastrar" onClick={() => createUser(user, adress)}>Cadastrar</button>
-                </form>
-        </div>
-        </div>
+                </div>
+            </div>
+        </>
     )
 }
 
