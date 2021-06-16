@@ -39,7 +39,7 @@
 }
 #input-verificacao{
     width: 70%;
-    height: 9%;
+    height: 7%;
     background: #FAFAFA;
     display: flex;
     margin-left: 13%;
@@ -47,13 +47,24 @@
     box-sizing: border-box;
 }
 #label-verificacao{
+   margin-top: -1.5%;
    margin-bottom: -2%;
-   font-size: 120%;
+   font-size: 100%;
    margin-left: 13%;
    font-style: normal;
    font-weight: 300;
    line-height: 21px;
    display: flex;
+}
+#label-verificacao-email{
+    margin-top: -1.5%;
+    margin-bottom: 0%;
+    font-size: 100%;
+    margin-left: 13%;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+    display: flex; 
 }
 #p-bem-vindo{
     font-style: normal;
