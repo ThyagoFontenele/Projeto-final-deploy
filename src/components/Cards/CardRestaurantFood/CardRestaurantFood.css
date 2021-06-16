@@ -1,0 +1,37 @@
+.card-restaurant-food {
+    width: 280px;
+    height: 120px;
+    background-color: #F5C661;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.card-restaurant-food-picture {
+    min-width: 60px;
+    height: 60px;
+    background-color: #FF7E61;
+}
+
+.card-restaurant-food-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 0 10px;
+    width: 100%;
+}
+
+.card-restaurant-food-info-dish {
+    font-size: 16px;
+}
+
+.card-restaurant-food-info-price {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.card-restaurant-food-add {
+    align-self: flex-end;
+}
