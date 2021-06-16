@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../../components/Header/HeaderUserLogged/HeaderUserLogged'
 import Footer from '../../../components/Footer/Footer'
 import Loupe from '../../../assets/images/loupe1.png'
+import Card from '../../../components/Cards/CardRestaurantFood/CardRestaurantFood'
 import './Restaurant.css'
 
 function Restaurant() {
@@ -35,7 +36,36 @@ function Restaurant() {
                 </div>
 
                 <div className="restaurant-list">
-                    RESTAURANT LIST
+                    <div className="restaurant-list-row">
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                    </div>
+                    <div className="restaurant-list-row">
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                    </div>
+                    <div className="restaurant-list-row">
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                    </div>
+                    <div className="restaurant-list-row">
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                    </div>
+                    <div className="restaurant-list-row">
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                    </div>
+                    <div className="restaurant-list-row">
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                    </div>
                 </div>
             </main>
 
