@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from '../../../components/Header/HeaderUserLogged/HeaderUserLogged'
+import Header from '../../../components/Header/HeaderDeliveryman/HeaderDeliveryman'
 import Footer from '../../../components/Footer/Footer'
 import Voltar from '../../../assets/images/before-point.svg'
 import './WalletDeliveryman.css'
 import CardFood from '../../../components/Cards/CardFood/CardFood'
-
+import { Link } from 'react-router-dom'
 function WalletDeliveryman() {
     return (
         <div>
@@ -12,7 +12,7 @@ function WalletDeliveryman() {
 
             <main className="wallet-deliveryman">
                 <div className="wallet-deliveryman-header">
-                    <img src={Voltar} alt="" />
+                    <Link to="/deliveryman/page"><img className="back-edit-user" src={Voltar} alt="" /></Link>
                     <h1 className="user-h1">Saldo disponível:</h1>
                     <p className="wallet-deliveryman-wallet-p">R$ 240,00</p>
                 </div>

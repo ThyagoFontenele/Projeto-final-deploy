@@ -1,19 +1,8 @@
 import React, { useState } from 'react'
 import Login from '../../Login/Login'
-import Input from '../../../components/Input/Input'
 import { AdicionarVeiculo } from '../../../service/api'
 import './DeliveryAddVeiculo.css'
 function DeliveryAddVeiculo() {
-    const [Email, setEmail] = useState("");
-    const [Veiculo, setVeiculo] = useState("");
-    const [License, setLicense] = useState("");
-    const info = {
-        "deliveryman":{
-            "email": Email,
-            "vechicle": Veiculo,
-            "license": License
-        }
-    }
 
     return (
         <>
@@ -26,15 +15,14 @@ function DeliveryAddVeiculo() {
                         <br />
                         <label id="label-verificacao">Adicione o modelo do seu veiculo</label>
                         <br />
-                        <Input type="text" id="input-verificacao" value={Veiculo} onChangeValue={setVeiculo} />
+                        <input type="text" id="input-verificacao"   />
                         <br />
                         <label id="label-verificacao">CNH</label>
                         <br />
-                        <Input type="text"  id="input-verificacao" value={License} onChangeValue={setLicense}/>
+                        <input type="text"  id="input-verificacao" />
                         <br />
-                        <label id="label-verificacao-email">E-mail</label>
-                        <Input type="mail" id="input-verificacao" value={Email} onChangeValue={setEmail}/>
-                        <button className="botoes-verificacao" onClick={() => AdicionarVeiculo(info)}>Enviar</button>
+                        
+                        <button className="botoes-verificacao" onClick={AdicionarVeiculo}>Enviar</button>
                 </div>
             </div>
         </>

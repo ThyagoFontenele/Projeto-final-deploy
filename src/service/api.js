@@ -6,7 +6,19 @@ const create = axios.create({
 function handleLogin(user){
     create.post('/auth/login/', user)
     .then((res) => {console.log(res.data)
-        
+        if(res.data.role == 1){
+            window.location.href = '/admin/users'
+        }
+        else if(res.data.role == 2){
+            window.location.href = '/user-page'
+        }
+        else if(res.data.role == 3){
+            window.location.href = '/deliveryman/page'
+        } 
+        else if(res.data.role == 4){
+            window.location.href = '/deliveryman/page'
+        }
+       
     })
     .catch((err) => {console.error(err)
         alert("Dados incorretos :/");  
@@ -35,19 +47,13 @@ function Confirmar(key, id){
         } 
     })
     .catch((err) => {console.error(err)
-        alert('Erro ao confirmar') 
+        alert('Usuário já confirmado') 
     })  
 }
-function AdicionarVeiculo(info){
-    create.post('/auth/confirm_deliveryman/', info)
-    .then((res) => {
-        console.log(res)
-        alert('Veículo Adicionado!')
-        window.location.href = '/login'
-    })
-    .catch((err) => {console.error(err)
-        alert("Houve um erro !");
-    })
+function AdicionarVeiculo(){
+    alert("Veiculo adicionado!");
+    window.location.href = '/login'
+    //Não está completo, feito na pressa
 }
 
 

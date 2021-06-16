@@ -18,7 +18,7 @@ function HeaderRestaurant() {
     return (
         <header>
             <div id="header-user-logged">
-                <Link to="/user-page" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
+                <Link to="/restaurant/manager" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
                 <div id="container-restaurant-links">
                     <Link to="/restaurant/management"><p id="gestao-restaurante-link">Gestão de Restaurante</p></Link>
                     <Link to="/restaurant/stock"><p id="gestao-estoque-link">Gestão de Estoque</p></Link>

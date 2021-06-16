@@ -18,7 +18,7 @@ function HeaderDeliveryman() {
     return (
         <header>
             <div className="header-logo-user">
-                <Link to="/user-page" id="logo"><img src={Logo} alt="Logo de Comes e Bebes" /></Link>
+                <Link to="/deliveryman/page" id="logo"><img src={Logo} alt="Logo de Comes e Bebes" /></Link>
                 <img src={User} alt="user icon" className="img-user" onClick={toggleButtonMenu} />
                 <MenuDeliveryman trigger={buttonMenu}/>
             </div>

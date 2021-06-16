@@ -12,7 +12,7 @@ function EditInfoAdmin() {
             <Header/>
             <main>
                     <div>
-                        <Link className="back-edit-user" to="/user-page"><img src={ArrowBefore} alt="arrow next"/></Link>
+                        <Link className="back-edit-user" to="/admin/users"><img src={ArrowBefore} alt="arrow next"/></Link>
                         <h2 className="user-h1">Editar Dados</h2>
                         <div className="barra-style"></div>
                     </div>

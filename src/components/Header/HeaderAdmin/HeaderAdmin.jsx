@@ -18,7 +18,7 @@ function HeaderAdmin() {
     return (
         <header>
             <div id="header-admin">
-                <Link to="/user-page" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
+                <Link to="/admin/users" id="logo"><img src={Logo} alt="logo comes e bebes" /></Link>
                 <div>
                     <Link to="/admin/users"><p id="lista-usuarios-link">Lista de Usuários</p></Link>
                     <Link to="/admin/deliveryman"><p id="admissao-link">Admissão de Entregadores</p></Link>
